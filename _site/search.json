@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "publications.html#publications",
+    "href": "publications.html#publications",
+    "title": "Publications & Talks",
+    "section": "Publications",
+    "text": "Publications\n\n2025\n\nMin, S., K.-H. Ahn. Projections and uncertainty decomposition in CMIP6 models for extreme precipitation scaling rates. Journal of Hydrology. https://doi.org/10.1016/j.jhydrol.2025.133260"
+  },
+  {
+    "objectID": "publications.html#conferences",
+    "href": "publications.html#conferences",
+    "title": "Publications & Talks",
+    "section": "Conferences",
+    "text": "Conferences\n\nDecomposing Uncertainty in Projected Changes in Extreme Precipitation: A Dynamic and Thermodynamic Perspective\n23 May 2025\nYeosu, South Korea – Korea Water Resources Association Annual Conference\n I presented research on the exploration of uncertainty in extreme precipitation and its two components: thermodynamic and dynamic processes, as well as their associated uncertainties. The study decomposes total projection uncertainty into three well-known sources in climate science: model structure, emission scenarios, and internal variability.\nYou can find my presentation here. \n\n\nDecomposing uncertainty in extreme precipitation scaling rates for future climate projection\n10 May 2024\nJeju, South Korea – Korea Water Resources Association Annual Conference\n Extreme precipitation is strongly linked to temperature, as warmer conditions allow the atmosphere to hold more moisture, enhancing the potential for intense rainfall. However, this relationship is found to be highly uncertain. In this talk, I explored the uncertainty surrounding the projected increase rates of extreme precipitation under future climate scenarios.\nI was selected as the Oral Best Presentation Winner for the international session.\nYou can find my presentation here."
+  },
+  {
+    "objectID": "gallery.html#kwra-conferences-2025",
+    "href": "gallery.html#kwra-conferences-2025",
+    "title": "Gallery",
+    "section": "KWRA conferences 2025",
+    "text": "KWRA conferences 2025"
+  },
+  {
+    "objectID": "gallery.html#kwra-conferences-2024",
+    "href": "gallery.html#kwra-conferences-2024",
+    "title": "Gallery",
+    "section": "KWRA conferences 2024",
+    "text": "KWRA conferences 2024"
+  },
+  {
+    "objectID": "gallery.html#startup-thailand-league-2023",
+    "href": "gallery.html#startup-thailand-league-2023",
+    "title": "Gallery",
+    "section": "StartUP Thailand League 2023",
+    "text": "StartUP Thailand League 2023"
+  },
+  {
+    "objectID": "certificates.html",
+    "href": "certificates.html",
+    "title": "Certificates",
+    "section": "",
+    "text": "2024\n\n\n\nGoogle Advanced Data Analytics Professional Certificate – Coursera & Google\n(Completed: February 2024)\nA comprehensive 7-course program covering statistics, data analysis, machine learning, and data-driven decision-making.\nCourses Completed:\n\nFoundations of Data Science\n\nGet Started with Python\n\nGo Beyond the Numbers: Translate Data Into Insights\nThe Power of Statistics\n\nRegression Analysis: Simplify Complex Data Relationship\nThe Nuts and Bolts of Machine Learning\nGoogle Advanced Data Analytics Capstone\n\n\n\n\n  \n\n\n\n\n2023\n\n\n\n\nIntroduction to Databases – Coursera & Meta\nA foundational course from Meta introducing core database concepts and SQL for data querying and management.\n\n\n\n  \n\n\n\n\n\n\nShare Data Through the Art of Visualization – Coursera & Google\nA hands-on course covering data visualization on Tableau. Starting from data preparation to the concept of data visualization to get the best insights.\n\n\n\n  \n\n\n\n\n\n\nDatabases and SQL for Data Science with Python – Coursera & IBM\nA practical course focused on using SQL to query databases, designed specifically for data science workflows with Python.\n\n\n\n  \n\n\n\n\n\n\nPython and Pandas for Data Engineering – Coursera & Duke University\nA hands-on course focusing on data engineering tools using Python and Pandas. Includes project environment setup, working with data structures, and essential development tools."
+  },
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Contact / CV",
+    "section": "",
+    "text": "📧 Email: sothearithmin@gmail.com\n\n🌐 Website: https://minsothearith.github.io\n\n📝 Download CV"
+  },
+  {
+    "objectID": "contacts.html#contact-me",
+    "href": "contacts.html#contact-me",
+    "title": "Contact / CV",
+    "section": "",
+    "text": "📧 Email: sothearithmin@gmail.com\n\n🌐 Website: https://minsothearith.github.io\n\n📝 Download CV"
+  },
+  {
+    "objectID": "contacts.html#teaching-or-collaboration",
+    "href": "contacts.html#teaching-or-collaboration",
+    "title": "Contact / CV",
+    "section": "Teaching or Collaboration?",
+    "text": "Teaching or Collaboration?\nFeel free to reach out via email or social media if you’re interested in collaborating on climate science, climate changes or data analysis projects."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Sothearith Min",
+    "section": "About me!",
+    "text": "About me!\nI’m a climate scientists based in South Korea. My research interests including extreme rainfalls projections and their uncertinaies.\nI analyze large-scale climate datasets using Python, with a strong focus on uncovering insights from geospatial data. I’m passionate about data visualization and love bringing climate stories to life through compelling maps and visual narratives. I enjoy translating complex datasets into intuitive visuals that inform and inspire.\nI completed my Bachelor’s degree in Statistics at Burapha University, Thailand. I then pursued a Master’s degree at Kongju National University in South Korea, with the financial support of Professor Ahn Kuk-Hyun.\nMy research focuses on the uncertainty of climate projections related to extreme events, particularly extreme rainfall, which plays a critical role in disasters such as floods. I have recently defended my thesis, and you can view my defense slides here\n📄 Download my CV"
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Sothearith Min",
+    "section": "Skills",
+    "text": "Skills\n\nScientific Research & Data Analytics\nStatistical Analysis: Descriptive & inferential statistics\nProgramming: Python, R, SQL, Minitab\nData Visualization: Matplotlib, Seaborn, ggplot2, Plotly\nGeospatial & Mapping: Cartopy, GeoPandas, xarray, NetCDF processing\nLanguages: Khmer (native), English (fluent), Thai (fluent)"
+  }
+]

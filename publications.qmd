@@ -1,0 +1,41 @@
+
+---
+title: "Publications & Talks"
+---
+<br>
+
+## Publications
+
+### 2025  
+- **Min, S.**, K.-H. Ahn. Projections and uncertainty decomposition in CMIP6 models for extreme precipitation scaling rates. ***Journal of Hydrology***. [https://doi.org/10.1016/j.jhydrol.2025.133260](https://doi.org/10.1016/j.jhydrol.2025.133260)
+
+<br>
+
+## Conferences
+
+### Decomposing Uncertainty in Projected Changes in Extreme Precipitation: A Dynamic and Thermodynamic Perspective
+
+<span style="color:gray; font-size: 0.9em;">23 May 2025</span>  
+<em><span style="font-size: 0.9em;">Yeosu, South Korea</span></em> – <span style="font-size: 0.9em;"><em>Korea Water Resources Association Annual Conference</em></span>
+
+<em><span style="font-size: 0.9em;">
+I presented research on the exploration of uncertainty in extreme precipitation and its two components: thermodynamic and dynamic processes, as well as their associated uncertainties. The study decomposes total projection uncertainty into three well-known sources in climate science: model structure, emission scenarios, and internal variability.  
+You can find my presentation [here](https://www.beautiful.ai/player/-OTgegQWDbWabRe-xVrr).
+</span></em>
+
+
+
+### Decomposing uncertainty in extreme precipitation scaling rates for future climate projection 
+
+<span style="color:gray; font-size: 0.9em;">10 May 2024</span>  
+<em><span style="font-size: 0.9em;">Jeju, South Korea</span></em> – <span style="font-size: 0.9em;"><em>Korea Water Resources Association Annual Conference</em></span>
+
+<span style="font-size: 0.9em;"><em>
+Extreme precipitation is strongly linked to temperature, as warmer conditions allow the atmosphere to hold more moisture, enhancing the potential for intense rainfall. However, this relationship is found to be highly uncertain. In this talk, I explored the uncertainty surrounding the projected increase rates of extreme precipitation under future climate scenarios.  
+I was selected as the <strong>Oral Best Presentation Winner</strong> for the international session.  
+You can find my presentation [here](https://www.beautiful.ai/player/-OTggm7M00w8VhizoPt6).
+</em></span>
+
+
+
+

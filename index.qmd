@@ -1,0 +1,58 @@
+---
+page-layout: custom
+---
+
+:::{.container}
+
+:::{.sidebar-container}
+<img src="images/KWRA24_0.jpg" alt="Profile" class="profile-pic" />
+
+<div class="profile-name">Sothearith Min</div>
+<div class="profile-title">Climate/Data Scientist</div>
+<div class="profile-location">📍 Phnom Penh / Cheonan</div>
+
+<ul class="contact-list">
+  <li><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/github.svg" /><a href="https://github.com/sothearith-min"> GitHub</a></li>
+  <li><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/linkedin.svg" /><a href="https://linkedin.com/in/sothearith-min"> LinkedIn</a></li>
+  <li>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/medium.svg" />
+  <a href="https://medium.com/@sothearithmin"> Medium</a>
+  </li>
+  <li>
+  <img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/googlescholar.svg" />
+  <a href="https://scholar.google.com/citations?hl=en&user=eZfRsVQAAAAJ">Google Scholar</a>
+  </li>
+  <li><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/researchgate.svg" /><a href="https://researchgate.net/profile/Sothearith-Min-2"> ResearchGate</a></li>
+  <li><img src="https://cdn.jsdelivr.net/npm/simple-icons/icons/orcid.svg" /><a href="https://orcid.org/0009-0001-4076-7834"> ORCID</a></li>
+</ul>
+:::
+
+:::{.main-content}
+## About me!
+
+I’m a climate scientists based in South Korea. My research interests including extreme rainfalls projections and their uncertinaies.
+
+I analyze large-scale climate datasets using Python, with a strong focus on uncovering insights from geospatial data. I'm passionate about data visualization and love bringing climate stories to life through compelling maps and visual narratives. I enjoy translating complex datasets into intuitive visuals that inform and inspire.
+
+
+I completed my Bachelor's degree in Statistics at Burapha University, Thailand. I then pursued a Master's degree at Kongju National University in South Korea, with the financial support of Professor Ahn Kuk-Hyun.
+
+My research focuses on the uncertainty of climate projections related to extreme events, particularly extreme rainfall, which plays a critical role in disasters such as floods. I have recently defended my thesis, and you can view my defense slides [here](https://www.beautiful.ai/player/-OTglW3lxR6ZvrKQlIut)
+
+
+📄 [Download my CV](files/MinSothearith_CV.pdf)
+
+## Skills
+
+- **Scientific Research & Data Analytics**
+- **Statistical Analysis:** Descriptive & inferential statistics
+- **Programming:** Python, R, SQL, Minitab
+- **Data Visualization:** Matplotlib, Seaborn, ggplot2, Plotly
+- **Geospatial & Mapping:** Cartopy, GeoPandas, xarray, NetCDF processing
+
+- **Languages:** Khmer (native), English (fluent), Thai (fluent)
+:::
+
+:::
+
+

@@ -1,0 +1,73 @@
+---
+title: "Gallery"
+format: 
+  html:
+    page-layout: full
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+---
+
+## Thesis Defence 
+
+<div style="display: flex; gap: 16px; overflow-x: auto; padding: 1rem 0; max-width: 100%; margin-left: 2rem;">
+  <a href="images/Thesis_Defense/thesis_0.jpg" data-fancybox="thesisGallery" data-caption="Thesis Defence 1" style="flex-shrink: 0;">
+    <img src="images/Thesis_Defense/thesis_0.jpg" alt="Thesis 1" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/Thesis_Defense/thesis_1.jpg" data-fancybox="thesisGallery" data-caption="Thesis Defence 2" style="flex-shrink: 0;">
+    <img src="images/Thesis_Defense/thesis_1.jpg" alt="Thesis 2" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/Thesis_Defense/thesis_2.jpg" data-fancybox="thesisGallery" data-caption="Thesis Defence 3" style="flex-shrink: 0;">
+    <img src="images/Thesis_Defense/thesis_2.jpg" alt="Thesis 3" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+</div>
+## KWRA conferences 2025 
+
+<div style="display: flex; gap: 16px; overflow-x: auto; padding: 1rem 0; max-width: 100%; margin-left: 2rem;">
+  <a href="images/KWRA25/kwra25_0.jpg" data-fancybox="kwra25Gallery" data-caption="KWRA 2025 - 1" style="flex-shrink: 0;">
+    <img src="images/KWRA25/kwra25_0.jpg" alt="KWRA 2025 - 1" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/KWRA25/kwra25_1.jpg" data-fancybox="kwra25Gallery" data-caption="KWRA 2025 - 2" style="flex-shrink: 0;">
+    <img src="images/KWRA25/kwra25_1.jpg" alt="KWRA 2025 - 2" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/KWRA25/kwra25_2.jpg" data-fancybox="kwra25Gallery" data-caption="KWRA 2025 - 3" style="flex-shrink: 0;">
+    <img src="images/KWRA25/kwra25_2.jpg" alt="KWRA 2025 - 3" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/KWRA25/kwra25_3.jpg" data-fancybox="kwra25Gallery" data-caption="KWRA 2025 - 4" style="flex-shrink: 0;">
+    <img src="images/KWRA25/kwra25_3.JPEG" alt="KWRA 2025 - 4" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+</div>
+
+## KWRA conferences 2024 
+
+<div style="display: flex; gap: 16px; overflow-x: auto; padding: 1rem 0; max-width: 100%; margin-left: 2rem;">
+  <a href="images/KWRA24/kwra24_0.jpg" data-fancybox="kwra24Gallery" data-caption="KWRA 2024 - 1" style="flex-shrink: 0;">
+    <img src="images/KWRA24/kwra24_0.jpg" alt="KWRA 2024 - 1" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/KWRA24/kwra24_1.jpg" data-fancybox="kwra24Gallery" data-caption="KWRA 2024 - 2" style="flex-shrink: 0;">
+    <img src="images/KWRA24/kwra24_1.jpg" alt="KWRA 2024 - 2" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/KWRA24/kwra24_2.jpg" data-fancybox="kwra24Gallery" data-caption="KWRA 2024 - 3" style="flex-shrink: 0;">
+    <img src="images/KWRA24/kwra24_2.jpg" alt="KWRA 2024 - 3" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/KWRA24/kwra24_3.jpg" data-fancybox="kwra24Gallery" data-caption="KWRA 2024 - 4" style="flex-shrink: 0;">
+    <img src="images/KWRA24/kwra24_3.jpg" alt="KWRA 2024 - 4" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+</div>
+
+
+## StartUP Thailand League 2023
+
+<div style="display: flex; gap: 16px; overflow-x: auto; padding: 1rem 0; max-width: 100%; margin-left: 2rem;">
+  <a href="images/StartUp/StartUp2.jpg" data-fancybox="startupGallery" data-caption="StartUp - 1" style="flex-shrink: 0;">
+    <img src="images/StartUp/StartUp2.jpg" alt="StartUp - 1" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/StartUp/StartUp_1.jpg" data-fancybox="startupGallery" data-caption="StartUp - 2" style="flex-shrink: 0;">
+    <img src="images/StartUp/StartUp_1.jpg" alt="StartUp - 2" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/StartUp/StartUp_0.jpg" data-fancybox="startupGallery" data-caption="StartUp - 3" style="flex-shrink: 0;">
+    <img src="images/StartUp/StartUp_0.jpg" alt="StartUp - 3" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+</div>
+

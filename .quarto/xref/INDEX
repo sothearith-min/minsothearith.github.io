@@ -1,0 +1,26 @@
+{
+  "index.qmd": {
+    "index.html": "3460baba"
+  },
+  "about.qmd": {
+    "about.html": "90687a3e"
+  },
+  "contacts.qmd": {
+    "contacts.html": "f036caaa"
+  },
+  "publications.qmd": {
+    "publications.html": "2e68099c"
+  },
+  "talks.qmd": {
+    "talks.html": "a7003f05"
+  },
+  "galary.qmd": {
+    "galary.html": "31210e71"
+  },
+  "gallery.qmd": {
+    "gallery.html": "5d7553ac"
+  },
+  "certificates.qmd": {
+    "certificates.html": "d70dc595"
+  }
+}
