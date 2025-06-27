@@ -90,10 +90,13 @@ title: "Certificates"
 </div>
 
 <div style="flex: 1.2; min-width: 280px;">
-  <a href="images/Course/Google_Advance/python_pandas.jpeg" data-fancybox="certificates" data-caption="Python and Pandas for Data Engineering – Duke University">
-    <img src="images/Course/Google_Advance/python_pandas.jpeg" alt="Python and Pandas Certificate" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+  <a href="images/Course/Google_Advance/Python_Pandas.jpeg" data-fancybox="certificates" data-caption="Python and Pandas for Data Engineering – Duke University">
+  <img src="images/Course/Google_Advance/Python_Pandas.jpeg" alt="Python and Pandas Certificate" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+</a>
+
   </a>
 </div>
+
 
 </div>
 
