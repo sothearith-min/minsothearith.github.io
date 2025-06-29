@@ -30,17 +30,21 @@ page-layout: custom
 :::{.main-content}
 ## About me!
 
-I’m a climate scientists based in South Korea. My research interests including extreme rainfalls projections and their uncertinaies.
+I’m a climate scientist based in South Korea. My research interests include extreme rainfall projections and their uncertainties.
 
 I analyze large-scale climate datasets using Python, with a strong focus on uncovering insights from geospatial data. I'm passionate about data visualization and love bringing climate stories to life through compelling maps and visual narratives. I enjoy translating complex datasets into intuitive visuals that inform and inspire.
 
-
 I completed my Bachelor's degree in Statistics at Burapha University, Thailand. I then pursued a Master's degree at Kongju National University in South Korea, with the financial support of Professor Ahn Kuk-Hyun.
 
-My research focuses on the uncertainty of climate projections related to extreme events, particularly extreme rainfall, which plays a critical role in disasters such as floods. I have recently defended my thesis, and you can view my defense slides [here](https://www.beautiful.ai/player/-OTglW3lxR6ZvrKQlIut)
+My research focuses on the uncertainty of climate projections related to extreme events, particularly extreme rainfall, which plays a critical role in disasters such as floods. I have recently defended my thesis, and you can view my defense slides [here](https://www.beautiful.ai/player/-OTglW3lxR6ZvrKQlIut).
+
+📄 [Download my CV](files/MinSothearith_CV.pdf)  
+🎓 [Bachelor thesis](files/BS-Final%20Project.pdf): Comparing the Performance of the Correlation Coefficients for the Bivariate Mixture Distributions  
+🎓 [Master thesis](files/Thesis_Min.pdf): Quantifying Uncertainty in Future Extreme Precipitation Projections: A Dual Focus on Scaling Rates and Physical Changes  
+📝 [Published paper](files/Min_Paper.pdf): Decomposing uncertainty in extreme precipitation scaling with temperature in CMIP6 (Journal of Hydrology, IF: 6.789)
 
 
-📄 [Download my CV](files/MinSothearith_CV.pdf)
+
 
 ## Skills
 

@@ -34,7 +34,7 @@ format:
   <a href="images/KWRA25/kwra25_2.jpg" data-fancybox="kwra25Gallery" data-caption="KWRA 2025 - 3" style="flex-shrink: 0;">
     <img src="images/KWRA25/kwra25_2.jpg" alt="KWRA 2025 - 3" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
   </a>
-  <a href="images/KWRA25/kwra25_3.jpg" data-fancybox="kwra25Gallery" data-caption="KWRA 2025 - 4" style="flex-shrink: 0;">
+  <a href="images/KWRA25/kwra25_3.JPEG" data-fancybox="kwra25Gallery" data-caption="KWRA 2025 - 4" style="flex-shrink: 0;">
     <img src="images/KWRA25/kwra25_3.JPEG" alt="KWRA 2025 - 4" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
   </a>
 </div>
@@ -70,4 +70,6 @@ format:
     <img src="images/StartUp/StartUp_0.jpg" alt="StartUp - 3" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
   </a>
 </div>
+
+
 
