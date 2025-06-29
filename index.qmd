@@ -39,7 +39,7 @@ I completed my Bachelor's degree in Statistics at Burapha University, Thailand. 
 My research focuses on the uncertainty of climate projections related to extreme events, particularly extreme rainfall, which plays a critical role in disasters such as floods. I have recently defended my thesis, and you can view my defense slides [here](https://www.beautiful.ai/player/-OTglW3lxR6ZvrKQlIut).
 
 📄 [Download my CV](files/MinSothearith_CV.pdf)  
-🎓 [Bachelor thesis](files/BS-Final%20Project.pdf): Comparing the Performance of the Correlation Coefficients for the Bivariate Mixture Distributions  
+🎓 [Bachelor thesis](files/BSProject.pdf): Comparing the Performance of the Correlation Coefficients for the Bivariate Mixture Distributions  
 🎓 [Master thesis](files/Thesis_Min.pdf): Quantifying Uncertainty in Future Extreme Precipitation Projections: A Dual Focus on Scaling Rates and Physical Changes  
 📝 [Published paper](files/Min_Paper.pdf): Decomposing uncertainty in extreme precipitation scaling with temperature in CMIP6 (Journal of Hydrology, IF: 6.789)
 
