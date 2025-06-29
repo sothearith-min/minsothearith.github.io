@@ -1,0 +1,99 @@
+/* Main layout: sidebar left, content right */
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 0px; /* Adjust as needed (e.g., 30–50px) */
+}
+
+body {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Sidebar */
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* center profile pic */
+  padding: 20px;
+  max-width: 220px;
+  flex-shrink: 0;
+}
+
+/* Profile picture stays centered */
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 1px solid #534685;
+}
+
+/* Name, title, location are left-aligned */
+.profile-name,
+.profile-title,
+.profile-location,
+.contact-list {
+  text-align: left;
+  width: 100%;
+  padding-left: 10px;  /* gentle indent */
+}
+
+/* Individual text styles */
+.profile-name {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.profile-title {
+  font-size: 0.9rem;
+  color: #1d1d1e;
+  margin-bottom: 10px;
+}
+
+.profile-location {
+  font-size: 0.85rem;
+  color: #1d1d1e;
+  margin-bottom: 15px;
+}
+
+/* Contact list */
+.contact-list {
+  list-style: none;
+  padding: 0;
+  font-size: 0.85rem;
+  width: 100%;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin: 6px 0;
+  padding-left: 10px;  /* align with text */
+}
+
+.contact-list img {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+/* Main content area */
+.main-content {
+  flex-grow: 1;
+}
+
+.move-down {
+  margin-top: 100px; /* adjust the value to how much you want to move down */
+}
+
+
+header#quarto-header {
+  z-index: 999;
+  position: relative;
+}
