@@ -9,6 +9,20 @@ format:
         <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 ---
 
+## Graduation Ceremony  
+
+<div style="display: flex; gap: 16px; overflow-x: auto; padding: 1rem 0; max-width: 100%; margin-left: 2rem;">
+  <a href="images/Graduation/grad_1.jpg" data-fancybox="gradGallery" data-caption="Graduation 1" style="flex-shrink: 0;">
+    <img src="images/Graduation/grad_1.jpg" alt="Grad 1" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/Graduation/grad_2.jpg" data-fancybox="gradGallery" data-caption="Graduation 2" style="flex-shrink: 0;">
+    <img src="images/Graduation/grad_2.jpg" alt="Grad 2" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+  <a href="images/Graduation/grad_1.jpg" data-fancybox="gradGallery" data-caption="Graduation 3" style="flex-shrink: 0;">
+    <img src="images/Graduation/grad_3.jpg" alt="Grad 3" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+  </a>
+</div>
+
 ## Thesis Defence 
 
 <div style="display: flex; gap: 16px; overflow-x: auto; padding: 1rem 0; max-width: 100%; margin-left: 2rem;">
@@ -22,6 +36,7 @@ format:
     <img src="images/Thesis_Defense/thesis_2.jpg" alt="Thesis 3" style="height: 200px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
   </a>
 </div>
+
 ## KWRA conferences 2025 
 
 <div style="display: flex; gap: 16px; overflow-x: auto; padding: 1rem 0; max-width: 100%; margin-left: 2rem;">
