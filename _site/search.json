@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "University\nAcademic Year\nCourse\nHighlights\nWebpage\n\n\n\n\nITC Institute of Technology of Cambodia\n2025 - 2026\nOperations Research (Year 4 - Financial Engineering)\n💡 Dive into optimization, decision-making, and real-world problem solving! \n🖥 Course Webpage"
+  },
+  {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Sothearith Min",
@@ -14,109 +21,11 @@
     "text": "Skills\n\nScientific Research & Data Analytics\nStatistical Analysis: Descriptive & inferential statistics\nProgramming: Python, R, SQL, Minitab\nData Visualization: Matplotlib, Seaborn, ggplot2, Plotly\nGeospatial & Mapping: Cartopy, GeoPandas, xarray, NetCDF processing\nLanguages: Khmer (native), English (fluent), Thai (fluent)"
   },
   {
-    "objectID": "publications.html#publications",
-    "href": "publications.html#publications",
-    "title": "Publications & Talks",
-    "section": "Publications",
-    "text": "Publications\n\n2025\n\nMin, S., K.-H. Ahn. Projections and uncertainty decomposition in CMIP6 models for extreme precipitation scaling rates. Journal of Hydrology. https://doi.org/10.1016/j.jhydrol.2025.133260"
-  },
-  {
-    "objectID": "publications.html#conferences",
-    "href": "publications.html#conferences",
-    "title": "Publications & Talks",
-    "section": "Conferences",
-    "text": "Conferences\n\nDecomposing Uncertainty in Projected Changes in Extreme Precipitation: A Dynamic and Thermodynamic Perspective\n23 May 2025\nYeosu, South Korea – Korea Water Resources Association Annual Conference\n I presented research on the exploration of uncertainty in extreme precipitation and its two components: thermodynamic and dynamic processes, as well as their associated uncertainties. The study decomposes total projection uncertainty into three well-known sources in climate science: model structure, emission scenarios, and internal variability.\nYou can find my presentation here. \n\n\nDecomposing uncertainty in extreme precipitation scaling rates for future climate projection\n10 May 2024\nJeju, South Korea – Korea Water Resources Association Annual Conference\n Extreme precipitation is strongly linked to temperature, as warmer conditions allow the atmosphere to hold more moisture, enhancing the potential for intense rainfall. However, this relationship is found to be highly uncertain. In this talk, I explored the uncertainty surrounding the projected increase rates of extreme precipitation under future climate scenarios.\nI was selected as the Oral Best Presentation Winner for the international session.\nYou can find my presentation here."
-  },
-  {
-    "objectID": "certificates.html",
-    "href": "certificates.html",
-    "title": "Certificates",
-    "section": "",
-    "text": "2024\n\n\n\nGoogle Advanced Data Analytics Professional Certificate – Coursera & Google\n(Completed: February 2024)\nA comprehensive 7-course program covering statistics, data analysis, machine learning, and data-driven decision-making.\nCourses Completed:\n\nFoundations of Data Science\n\nGet Started with Python\n\nGo Beyond the Numbers: Translate Data Into Insights\nThe Power of Statistics\n\nRegression Analysis: Simplify Complex Data Relationship\nThe Nuts and Bolts of Machine Learning\nGoogle Advanced Data Analytics Capstone\n\n\n\n\n  \n\n\n\n\n2023\n\n\n\n\nIntroduction to Databases – Coursera & Meta\nA foundational course from Meta introducing core database concepts and SQL for data querying and management.\n\n\n\n  \n\n\n\n\n\n\nShare Data Through the Art of Visualization – Coursera & Google\nA hands-on course covering data visualization on Tableau. Starting from data preparation to the concept of data visualization to get the best insights.\n\n\n\n  \n\n\n\n\n\n\nDatabases and SQL for Data Science with Python – Coursera & IBM\nA practical course focused on using SQL to query databases, designed specifically for data science workflows with Python.\n\n\n\n  \n\n\n\n\n\n\nPython and Pandas for Data Engineering – Coursera & Duke University\nA hands-on course focusing on data engineering tools using Python and Pandas. Includes project environment setup, working with data structures, and essential development tools."
-  },
-  {
-    "objectID": "gallery.html#thesis-defence",
-    "href": "gallery.html#thesis-defence",
-    "title": "Gallery",
-    "section": "Thesis Defence",
-    "text": "Thesis Defence"
-  },
-  {
-    "objectID": "gallery.html#kwra-conferences-2025",
-    "href": "gallery.html#kwra-conferences-2025",
-    "title": "Gallery",
-    "section": "KWRA conferences 2025",
-    "text": "KWRA conferences 2025"
-  },
-  {
-    "objectID": "gallery.html#kwra-conferences-2024",
-    "href": "gallery.html#kwra-conferences-2024",
-    "title": "Gallery",
-    "section": "KWRA conferences 2024",
-    "text": "KWRA conferences 2024"
-  },
-  {
-    "objectID": "gallery.html#startup-thailand-league-2023",
-    "href": "gallery.html#startup-thailand-league-2023",
-    "title": "Gallery",
-    "section": "StartUP Thailand League 2023",
-    "text": "StartUP Thailand League 2023"
-  },
-  {
-    "objectID": "contacts.html",
-    "href": "contacts.html",
-    "title": "Contact / CV",
-    "section": "",
-    "text": "📧 Email: sothearithmin@gmail.com\n\n🌐 Website: https://sothearith-min.github.io/minsothearith.github.io/\n\n📝 Download CV"
-  },
-  {
-    "objectID": "contacts.html#contact-me",
-    "href": "contacts.html#contact-me",
-    "title": "Contact / CV",
-    "section": "",
-    "text": "📧 Email: sothearithmin@gmail.com\n\n🌐 Website: https://sothearith-min.github.io/minsothearith.github.io/\n\n📝 Download CV"
-  },
-  {
-    "objectID": "contacts.html#teaching-or-collaboration",
-    "href": "contacts.html#teaching-or-collaboration",
-    "title": "Contact / CV",
-    "section": "Teaching or Collaboration?",
-    "text": "Teaching or Collaboration?\nFeel free to reach out via email or social media if you’re interested in collaborating on climate science, climate changes or data analysis projects."
-  },
-  {
-    "objectID": "teaching.html#institute-of-technology-of-cambodia-itc",
-    "href": "teaching.html#institute-of-technology-of-cambodia-itc",
-    "title": "Teaching",
-    "section": "Institute of Technology of Cambodia (ITC)",
-    "text": "Institute of Technology of Cambodia (ITC)\n\nAcademic Year: 2025 - 2026\n\nCourse: Operations Research (Year 4 - Financial Engineering)\n🖥 Course Webpage:\n💡 Dive into optimization, decision-making, and real-world problem solving!\n📊 Projects | 📈 Case Studies"
-  },
-  {
-    "objectID": "teaching.html#phnom-penh-international-university-ppiu",
-    "href": "teaching.html#phnom-penh-international-university-ppiu",
-    "title": "Teaching",
-    "section": "Phnom Penh International University (PPIU)",
-    "text": "Phnom Penh International University (PPIU)\n\nAcademic Year: 2025 - 2026\n\nCourse: Data Visualization (Year 4 & 2 - CS & MIS Majors)\n🖥 Course Webpage:\n💡 Explore the art of turning data into stories!\n📊 Hands-on Projects | 📈 Interactive Case Studies | 🎨 Creative Visualizations\n🚀 Learn tools, techniques, and tricks to wow with data!"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "University\nAcademic Year\nCourse\nHighlights\nWebpage\n\n\n\n\nITC Institute of Technology of Cambodia\n2025 - 2026\nOperations Research (Year 4 - Financial Engineering)\n💡 Dive into optimization, decision-making, and real-world problem solving! \n🖥 Course Webpage"
-  },
-  {
-    "objectID": "Course_Web/Slides/Week_1/index.html",
-    "href": "Course_Web/Slides/Week_1/index.html",
-    "title": "Operation Research",
-    "section": "",
-    "text": "Code for this Fig.\nimport matplotlib.pyplot as plt\n\ncomponents = ['Attendance', 'Assignment', 'Class Activities', 'Mid-term', 'Final']\npercentages = [10, 10, 10, 30, 40]\ncolors = ['#80ffdb', '#56cfe1', '#6930c3', '#7400b8', '#001233']  \n\nfig, ax = plt.subplots(figsize=(8, 3))\n\nfor i, (comp, pct, color) in enumerate(zip(components, percentages, colors)):\n    ax.scatter(i, 0, s=pct*40, color=color, edgecolor='white', linewidth=1.5)\n    ax.text(i, -0.15, comp, ha='center', va='center', fontsize=12, fontname='Trebuchet MS')\n    ax.text(i, 0.2, f'{pct}%', ha='center', va='center', fontsize=14, fontweight='bold', fontname='Trebuchet MS')\n\nax.set_xlim(-0.5, len(components)-0.5)\nax.set_ylim(-0.5, 0.5)\nax.axis('off')\nax.set_title('Assessment Distribution', fontsize=16, fontweight='bold', fontname='Trebuchet MS', pad=10)\n\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nWe will use Python in Jupyter Notebook or Google Colab to solve complex problems."
-  },
-  {
     "objectID": "Course_Web/Slides/Week_1/index.html#course-overview",
     "href": "Course_Web/Slides/Week_1/index.html#course-overview",
     "title": "Operation Research",
-    "section": "",
-    "text": "Code for this Fig.\nimport matplotlib.pyplot as plt\n\ncomponents = ['Attendance', 'Assignment', 'Class Activities', 'Mid-term', 'Final']\npercentages = [10, 10, 10, 30, 40]\ncolors = ['#80ffdb', '#56cfe1', '#6930c3', '#7400b8', '#001233']  \n\nfig, ax = plt.subplots(figsize=(8, 3))\n\nfor i, (comp, pct, color) in enumerate(zip(components, percentages, colors)):\n    ax.scatter(i, 0, s=pct*40, color=color, edgecolor='white', linewidth=1.5)\n    ax.text(i, -0.15, comp, ha='center', va='center', fontsize=12, fontname='Trebuchet MS')\n    ax.text(i, 0.2, f'{pct}%', ha='center', va='center', fontsize=14, fontweight='bold', fontname='Trebuchet MS')\n\nax.set_xlim(-0.5, len(components)-0.5)\nax.set_ylim(-0.5, 0.5)\nax.axis('off')\nax.set_title('Assessment Distribution', fontsize=16, fontweight='bold', fontname='Trebuchet MS', pad=10)\n\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\nWe will use Python in Jupyter Notebook or Google Colab to solve complex problems."
+    "section": "Course Overview",
+    "text": "Course Overview\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\n\ncomponents = ['Attendance', 'Assignment', 'Class Activities', 'Mid-term', 'Final']\npercentages = [10, 10, 10, 30, 40]\ncolors = ['#80ffdb', '#56cfe1', '#6930c3', '#7400b8', '#001233']  \n\nfig, ax = plt.subplots(figsize=(8, 3))\n\nfor i, (comp, pct, color) in enumerate(zip(components, percentages, colors)):\n    ax.scatter(i, 0, s=pct*40, color=color, edgecolor='white', linewidth=1.5)\n    ax.text(i, -0.15, comp, ha='center', va='center', fontsize=12, fontname='Trebuchet MS')\n    ax.text(i, 0.2, f'{pct}%', ha='center', va='center', fontsize=14, fontweight='bold', fontname='Trebuchet MS')\n\nax.set_xlim(-0.5, len(components)-0.5)\nax.set_ylim(-0.5, 0.5)\nax.axis('off')\nax.set_title('Assessment Distribution', fontsize=16, fontweight='bold', fontname='Trebuchet MS', pad=10)\n\nplt.tight_layout()\nplt.show()\n\n\n\nProgramming Tools\nWe will use Python in Jupyter Notebook or Google Colab to solve complex problems."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#course-syllabus",
@@ -144,63 +53,63 @@
     "href": "Course_Web/Slides/Week_1/index.html#history-of-or",
     "title": "Operation Research",
     "section": "History of OR",
-    "text": "History of OR\n\nGeorge B. Dantzig – Father of LP & OR\nGeorge B. Dantzig (1914–2005) developed linear programming methods that became fundamental to Operations Research, helping optimize resource allocation in military and civilian applications.\nIn World War II, George B. Dantzig joined the US Air Force’s Operations Research team. He applied mathematical methods to solve practical problems, helping the Air Force plan flight schedules, optimize aircraft deployment, and improve mission efficiency."
+    "text": "History of OR\nGeorge B. Dantzig – Father of LP & OR\nGeorge B. Dantzig (1914–2005) developed linear programming methods that became fundamental to Operations Research, helping optimize resource allocation in military and civilian applications.\nIn World War II, George B. Dantzig joined the US Air Force’s Operations Research team. He applied mathematical methods to solve practical problems, helping the Air Force plan flight schedules, optimize aircraft deployment, and improve mission efficiency."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#history-of-or-1",
     "href": "Course_Web/Slides/Week_1/index.html#history-of-or-1",
     "title": "Operation Research",
     "section": "History of OR",
-    "text": "History of OR\n\nThe use of OR in WW II\nDuring World War II, the US Air Force faced a problem:\n\nThey had limited aircraft and resources.\nThey needed to schedule reconnaissance, bombing, and transport missions efficiently.\nMistakes or inefficiencies could waste fuel, delay missions, or reduce coverage."
+    "text": "History of OR\nThe use of OR in WW II\nDuring World War II, the US Air Force faced a problem:\n\nThey had limited aircraft and resources.\nThey needed to schedule reconnaissance, bombing, and transport missions efficiently.\nMistakes or inefficiencies could waste fuel, delay missions, or reduce coverage."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#history-of-or-2",
     "href": "Course_Web/Slides/Week_1/index.html#history-of-or-2",
     "title": "Operation Research",
     "section": "History of OR",
-    "text": "History of OR\n\nThe use of OR in WW II\nThat would not be a problem if the the scale is small.\n\n\nShow mermaid code\n\nflowchart LR\n    Base[\"📍 Base\"] ---|🛩️| M1[\"📍 Mission 1\"]\n    M1 ---|🛩️| M2[\"📍 Mission 2\"]\n    M2 ---|🛩️| M3[\"📍 Mission 3\"]\n    M3 ---|🛩️| Base\n\n\n\n\n\n\nflowchart LR\n    Base[\"📍 Base\"] ---|🛩️| M1[\"📍 Mission 1\"]\n    M1 ---|🛩️| M2[\"📍 Mission 2\"]\n    M2 ---|🛩️| M3[\"📍 Mission 3\"]\n    M3 ---|🛩️| Base"
+    "text": "History of OR\nThe use of OR in WW II\nThat would not be a problem if the the scale is small.\n\n\nShow mermaid code\n\nflowchart LR\n    Base[\"📍 Base\"] ---|🛩️| M1[\"📍 Mission 1\"]\n    M1 ---|🛩️| M2[\"📍 Mission 2\"]\n    M2 ---|🛩️| M3[\"📍 Mission 3\"]\n    M3 ---|🛩️| Base\n\n\n\n\n\n\nflowchart LR\n    Base[\"📍 Base\"] ---|🛩️| M1[\"📍 Mission 1\"]\n    M1 ---|🛩️| M2[\"📍 Mission 2\"]\n    M2 ---|🛩️| M3[\"📍 Mission 3\"]\n    M3 ---|🛩️| Base"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#history-of-or-3",
     "href": "Course_Web/Slides/Week_1/index.html#history-of-or-3",
     "title": "Operation Research",
     "section": "History of OR",
-    "text": "History of OR\n\nThe use of OR in WW II\nBut, it gets more complicated when scale become larger.\nFor example:\n\nTwo airplanes.\nFuel limitation → refuel required.\nTime constraints → missions have priority.\nAirplanes must return to base."
+    "text": "History of OR\nThe use of OR in WW II\nBut, it gets more complicated when scale become larger.\nFor example:\n\nTwo airplanes.\nFuel limitation → refuel required.\nTime constraints → missions have priority.\nAirplanes must return to base."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#history-of-or-4",
     "href": "Course_Web/Slides/Week_1/index.html#history-of-or-4",
     "title": "Operation Research",
     "section": "History of OR",
-    "text": "History of OR\n\nThe use of OR in WW II\n\n\nCode for this Fig.\n\nflowchart LR\n    Base[\"📍 Base\"] --&gt; Plane1[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane1 --&gt; M1[\"📍 Mission 1\"]\n    M1 --&gt; M2[\"📍 Mission 2\"]\n    M2 --&gt; R[\"⛽ Refuel\"]\n    R --&gt; M3[\"📍 Mission 3\"]\n    M3 --&gt; Base\n\n    Base --&gt; Plane2[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane2 --&gt; M4[\"📍 Mission 4\"]\n    M4 --&gt; M5[\"📍 Mission 5\"]\n    M5 --&gt; R\n    R --&gt; M6[\"📍 Mission 6\"]\n    M6 --&gt; Base\n\n\n\n\n\n\nflowchart LR\n    Base[\"📍 Base\"] --&gt; Plane1[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane1 --&gt; M1[\"📍 Mission 1\"]\n    M1 --&gt; M2[\"📍 Mission 2\"]\n    M2 --&gt; R[\"⛽ Refuel\"]\n    R --&gt; M3[\"📍 Mission 3\"]\n    M3 --&gt; Base\n\n    Base --&gt; Plane2[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane2 --&gt; M4[\"📍 Mission 4\"]\n    M4 --&gt; M5[\"📍 Mission 5\"]\n    M5 --&gt; R\n    R --&gt; M6[\"📍 Mission 6\"]\n    M6 --&gt; Base"
+    "text": "History of OR\nThe use of OR in WW II\n\n\nCode for this Fig.\n\nflowchart LR\n    Base[\"📍 Base\"] --&gt; Plane1[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane1 --&gt; M1[\"📍 Mission 1\"]\n    M1 --&gt; M2[\"📍 Mission 2\"]\n    M2 --&gt; R[\"⛽ Refuel\"]\n    R --&gt; M3[\"📍 Mission 3\"]\n    M3 --&gt; Base\n\n    Base --&gt; Plane2[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane2 --&gt; M4[\"📍 Mission 4\"]\n    M4 --&gt; M5[\"📍 Mission 5\"]\n    M5 --&gt; R\n    R --&gt; M6[\"📍 Mission 6\"]\n    M6 --&gt; Base\n\n\n\n\n\n\nflowchart LR\n    Base[\"📍 Base\"] --&gt; Plane1[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane1 --&gt; M1[\"📍 Mission 1\"]\n    M1 --&gt; M2[\"📍 Mission 2\"]\n    M2 --&gt; R[\"⛽ Refuel\"]\n    R --&gt; M3[\"📍 Mission 3\"]\n    M3 --&gt; Base\n\n    Base --&gt; Plane2[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane2 --&gt; M4[\"📍 Mission 4\"]\n    M4 --&gt; M5[\"📍 Mission 5\"]\n    M5 --&gt; R\n    R --&gt; M6[\"📍 Mission 6\"]\n    M6 --&gt; Base"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#history-of-or-5",
     "href": "Course_Web/Slides/Week_1/index.html#history-of-or-5",
     "title": "Operation Research",
     "section": "History of OR",
-    "text": "History of OR\n\nThe use of OR in WW II\n\nThe Birth of the Simplex Method\nObserving these problems, George Dantzig created a well-known method called the Simplex method, which:\n\nProvides a systematic procedure for solving linear programming problems.\nHelps optimize resource allocation under constraints.\nBecame a foundational tool in Operations Research and optimization."
+    "text": "History of OR\nThe use of OR in WW II\nThe Birth of the Simplex Method\nObserving these problems, George Dantzig created a well-known method called the Simplex method, which:\n\nProvides a systematic procedure for solving linear programming problems.\nHelps optimize resource allocation under constraints.\nBecame a foundational tool in Operations Research and optimization."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#history-of-or-6",
     "href": "Course_Web/Slides/Week_1/index.html#history-of-or-6",
     "title": "Operation Research",
     "section": "History of OR",
-    "text": "History of OR\n\nPost world war\n\nOR methods gained popularity in industry and government.\nFocus shifted from military applications to commercial and industrial problems.\nThe success of OR during the war demonstrated its practical value."
+    "text": "History of OR\nPost world war\n\nOR methods gained popularity in industry and government.\nFocus shifted from military applications to commercial and industrial problems.\nThe success of OR during the war demonstrated its practical value."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#history-of-or-7",
     "href": "Course_Web/Slides/Week_1/index.html#history-of-or-7",
     "title": "Operation Research",
     "section": "History of OR",
-    "text": "History of OR\n\nUnited Airlines Case Study\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\nfrom scipy.interpolate import make_interp_spline\n\ntime_slots = ['0-6', '6-8', '8-10', '10-12', '12-14', '14-16', '16-18', '18-20', '20-22', '22-24']\npersonnel = [6, 10, 15, 20, 16, 24, 28, 20, 10, 10]\n\n\nx = np.arange(len(time_slots))\nx_smooth = np.linspace(x.min(), x.max(), 300)\n\n\nspl = make_interp_spline(x, personnel, k=3)\npersonnel_smooth = spl(x_smooth)\n\n\nplt.style.use('seaborn-v0_8-whitegrid')\nfig, ax = plt.subplots(figsize=(14, 7), facecolor='white')\n\n\nax.fill_between(x_smooth, personnel_smooth, alpha=0.2, color='#3b82f6')\n\n\nax.plot(x_smooth, personnel_smooth, color='#2563eb', linewidth=3.5, label='Demand Pattern', zorder=2)\n\n# Plot actual data points\nax.scatter(x, personnel, color='#1e40af', s=120, zorder=3, edgecolors='white', linewidth=2)\n\n# Add value labels on points\nfor i, (xi, yi) in enumerate(zip(x, personnel)):\n    ax.annotate(f'{yi}', xy=(xi, yi), xytext=(0, 12), \n                textcoords='offset points', ha='center', \n                fontsize=11, fontweight='bold', color='#1e40af',\n                bbox=dict(boxstyle='round,pad=0.4', facecolor='white', edgecolor='#3b82f6', linewidth=1.5))\n\n\nax.set_xticks(x)\nax.set_xticklabels(time_slots, fontsize=11)\nax.set_xlabel('Time Period (Hours)', fontsize=13, fontweight='bold', color='#1f2937', labelpad=10)\nax.set_ylabel('Personnel Required', fontsize=13, fontweight='bold', color='#1f2937', labelpad=10)\nax.set_title('United Airlines Airport Staffing.', \n             fontsize=16, fontweight='bold', color='#111827', pad=20)\n\n# Customize grid\nax.grid(True, alpha=0.25, linestyle='-', linewidth=0.8, color='#94a3b8')\nax.set_axisbelow(True)\n\n# Set y-axis limits with padding\nax.set_ylim(0, max(personnel) + 5)\n\n# Remove top and right spines\nax.spines['top'].set_visible(False)\nax.spines['right'].set_visible(False)\nax.spines['left'].set_color('#cbd5e1')\nax.spines['bottom'].set_color('#cbd5e1')\n\n# Add legend\nax.legend(loc='upper left', fontsize=11, frameon=True, shadow=True, fancybox=True)\n\n# Tight layout\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\nFigure 1"
+    "text": "History of OR\nUnited Airlines Case Study\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\nfrom scipy.interpolate import make_interp_spline\n\ntime_slots = ['0-6', '6-8', '8-10', '10-12', '12-14', '14-16', '16-18', '18-20', '20-22', '22-24']\npersonnel = [6, 10, 15, 20, 16, 24, 28, 20, 10, 10]\n\n\nx = np.arange(len(time_slots))\nx_smooth = np.linspace(x.min(), x.max(), 300)\n\n\nspl = make_interp_spline(x, personnel, k=3)\npersonnel_smooth = spl(x_smooth)\n\n\nplt.style.use('seaborn-v0_8-whitegrid')\nfig, ax = plt.subplots(figsize=(14, 7), facecolor='white')\n\n\nax.fill_between(x_smooth, personnel_smooth, alpha=0.2, color='#3b82f6')\n\n\nax.plot(x_smooth, personnel_smooth, color='#2563eb', linewidth=3.5, label='Demand Pattern', zorder=2)\n\n# Plot actual data points\nax.scatter(x, personnel, color='#1e40af', s=120, zorder=3, edgecolors='white', linewidth=2)\n\n# Add value labels on points\nfor i, (xi, yi) in enumerate(zip(x, personnel)):\n    ax.annotate(f'{yi}', xy=(xi, yi), xytext=(0, 12), \n                textcoords='offset points', ha='center', \n                fontsize=11, fontweight='bold', color='#1e40af',\n                bbox=dict(boxstyle='round,pad=0.4', facecolor='white', edgecolor='#3b82f6', linewidth=1.5))\n\n\nax.set_xticks(x)\nax.set_xticklabels(time_slots, fontsize=11)\nax.set_xlabel('Time Period (Hours)', fontsize=13, fontweight='bold', color='#1f2937', labelpad=10)\nax.set_ylabel('Personnel Required', fontsize=13, fontweight='bold', color='#1f2937', labelpad=10)\nax.set_title('United Airlines Airport Staffing.', \n             fontsize=16, fontweight='bold', color='#111827', pad=20)\n\n# Customize grid\nax.grid(True, alpha=0.25, linestyle='-', linewidth=0.8, color='#94a3b8')\nax.set_axisbelow(True)\n\n# Set y-axis limits with padding\nax.set_ylim(0, max(personnel) + 5)\n\n# Remove top and right spines\nax.spines['top'].set_visible(False)\nax.spines['right'].set_visible(False)\nax.spines['left'].set_color('#cbd5e1')\nax.spines['bottom'].set_color('#cbd5e1')\n\n# Add legend\nax.legend(loc='upper left', fontsize=11, frameon=True, shadow=True, fancybox=True)\n\n# Tight layout\nplt.tight_layout()\nplt.show()\n\n\n\n\nFigure 1"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#history-of-or-8",
     "href": "Course_Web/Slides/Week_1/index.html#history-of-or-8",
     "title": "Operation Research",
     "section": "History of OR",
-    "text": "History of OR\n\nUnited Airlines Case Study\nThe Optimization Problem:\nHow many people will you hire?\n\nEach person works for eight hours continuously.\nThey may start their shifts at different time.\n\nBusiness Impact:\nLinear programming is used by United Airlines to reduce the number of flight delays by 50% and save more than $5 million per year in 1992."
+    "text": "History of OR\nUnited Airlines Case Study\nThe Optimization Problem:\nHow many people will you hire?\n\nEach person works for eight hours continuously.\nThey may start their shifts at different time.\n\nBusiness Impact:\nLinear programming is used by United Airlines to reduce the number of flight delays by 50% and save more than $5 million per year in 1992."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#definition",
@@ -235,56 +144,56 @@
     "href": "Course_Web/Slides/Week_1/index.html#formulation-of-lp-models",
     "title": "Operation Research",
     "section": "Formulation of LP Models",
-    "text": "Formulation of LP Models\nSteps for Formulating LP problems\n. . .\n\nIdentify the nature of the problem (maximization minimization problem).\n\n. . .\n\nIdentify the number of variables to establish the objective function.\n\n. . .\n\nFormulate the constraints.\n\n. . .\n\nDevelop non-negativity constraints."
+    "text": "Formulation of LP Models\nSteps for Formulating LP problems\n\n\nIdentify the nature of the problem (maximization minimization problem).\n\n\n\n\nIdentify the number of variables to establish the objective function.\n\n\n\n\nFormulate the constraints.\n\n\n\n\nDevelop non-negativity constraints."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-1",
     "href": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-1",
     "title": "Operation Research",
     "section": "Standard Form of LP Models",
-    "text": "Standard Form of LP Models\n\nExample 1\n\nPaint Blending\nA paint manufacturer produces two types of paints using two raw materials. One ton of Paint 1 requires 4 units of material A and 3 units of material B. One ton of Paint 2 requires 3 units of material A and 6 units of material B. The company has 24 units of A and 30 units of B available. The profit per ton of Paint 1 and Paint 2 is $5 and $4, respectively.\nQuestion: Formulate a Linear Programming model to maximize profit."
+    "text": "Standard Form of LP Models\nExample 1\nPaint Blending\nA paint manufacturer produces two types of paints using two raw materials. One ton of Paint 1 requires 4 units of material A and 3 units of material B. One ton of Paint 2 requires 3 units of material A and 6 units of material B. The company has 24 units of A and 30 units of B available. The profit per ton of Paint 1 and Paint 2 is $5 and $4, respectively.\nQuestion: Formulate a Linear Programming model to maximize profit."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-2",
     "href": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-2",
     "title": "Operation Research",
     "section": "Standard Form of LP Models",
-    "text": "Standard Form of LP Models\n\nExample 1\nStep 1: Decision Variables\n\n\\(x_1\\) = tons of Paint 1 to produce\n\\(x_2\\) = tons of Paint 2 to produce\n\nStep 2: Organize the Data\n\n\n\nResource\nPaint 1\nPaint 2\nAvailable\n\n\n\n\nMaterial A\n4\n3\n24\n\n\nMaterial B\n3\n6\n30\n\n\nProfit\n$5\n$4\nMaximize"
+    "text": "Standard Form of LP Models\nExample 1\nStep 1: Decision Variables\n\n\\(x_1\\) = tons of Paint 1 to produce\n\\(x_2\\) = tons of Paint 2 to produce\n\nStep 2: Organize the Data\n\n\n\nResource\nPaint 1\nPaint 2\nAvailable\n\n\n\n\nMaterial A\n4\n3\n24\n\n\nMaterial B\n3\n6\n30\n\n\nProfit\n$5\n$4\nMaximize"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-3",
     "href": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-3",
     "title": "Operation Research",
     "section": "Standard Form of LP Models",
-    "text": "Standard Form of LP Models\n\nExample 1\nStep 3: Objective Function\nMaximize total profit:\n\\[\\text{Maximize } Z = 5x_1 + 4x_2\\]\nwhere \\(Z\\) is the total profit in dollars.\nStep 4: Constraints\n\nMaterial A: \\(4x_1 + 3x_2 \\leq 24\\)\nMaterial B: \\(3x_1 + 6x_2 \\leq 30\\)\nNon-negativity: \\(x_1, x_2 \\geq 0\\)"
+    "text": "Standard Form of LP Models\nExample 1\nStep 3: Objective Function\nMaximize total profit:\n\\[\\text{Maximize } Z = 5x_1 + 4x_2\\]\nwhere \\(Z\\) is the total profit in dollars.\nStep 4: Constraints\n\nMaterial A: \\(4x_1 + 3x_2 \\leq 24\\)\nMaterial B: \\(3x_1 + 6x_2 \\leq 30\\)\nNon-negativity: \\(x_1, x_2 \\geq 0\\)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-4",
     "href": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-4",
     "title": "Operation Research",
     "section": "Standard Form of LP Models",
-    "text": "Standard Form of LP Models\n\nModel\nMaximize: \\(Z = 5x_1 + 4x_2\\)\nSubject to: \\[\\begin{align}\n4x_1 + 3x_2 &\\leq 24 \\quad \\text{(Material A)}\\\\\n3x_1 + 6x_2 &\\leq 30 \\quad \\text{(Material B)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\]"
+    "text": "Standard Form of LP Models\nModel\nMaximize: \\(Z = 5x_1 + 4x_2\\)\nSubject to: \\[\\begin{align}\n4x_1 + 3x_2 &\\leq 24 \\quad \\text{(Material A)}\\\\\n3x_1 + 6x_2 &\\leq 30 \\quad \\text{(Material B)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\]"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-5",
     "href": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-5",
     "title": "Operation Research",
     "section": "Standard Form of LP Models",
-    "text": "Standard Form of LP Models\n\nExample 2\n\nProduct Mix Problem\nA factory manufactures two products: Product A and Product B. Each product requires processing on two machines:\n\nProduct A: 2 hours on Machine 1, 1 hour on Machine 2, profit $30\nProduct B: 1 hour on Machine 1, 2 hours on Machine 2, profit $40\nAvailable: Machine 1 has 100 hours, Machine 2 has 80 hours\n\nQuestion: Formulate the LP model to maximize profit."
+    "text": "Standard Form of LP Models\nExample 2\nProduct Mix Problem\nA factory manufactures two products: Product A and Product B. Each product requires processing on two machines:\n\nProduct A: 2 hours on Machine 1, 1 hour on Machine 2, profit $30\nProduct B: 1 hour on Machine 1, 2 hours on Machine 2, profit $40\nAvailable: Machine 1 has 100 hours, Machine 2 has 80 hours\n\nQuestion: Formulate the LP model to maximize profit."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-6",
     "href": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-6",
     "title": "Operation Research",
     "section": "Standard Form of LP Models",
-    "text": "Standard Form of LP Models\n\nExample 2\nStep 1: Decision Variables\n\n\\(x_1\\) = units of Product A to manufacture\n\\(x_2\\) = units of Product B to manufacture\n\nStep 2: Organize the Data\n\n\n\nResource\nProduct A\nProduct B\nAvailable\n\n\n\n\nMachine 1\n2 hrs\n1 hr\n100 hrs\n\n\nMachine 2\n1 hr\n2 hrs\n80 hrs\n\n\nProfit\n$30\n$40\nMaximize\n\n\n\n\nStep 3: Objective Function\nMaximize total profit:\n\\(\\text{Maximize } Z = 30x_1 + 40x_2\\)\nStep 4: Constraints\n\nMachine 1: \\(2x_1 + x_2 \\leq 100\\)\nMachine 2: \\(x_1 + 2x_2 \\leq 80\\)\nNon-negativity: \\(x_1, x_2 \\geq 0\\)"
+    "text": "Standard Form of LP Models\nExample 2\nStep 1: Decision Variables\n\n\\(x_1\\) = units of Product A to manufacture\n\\(x_2\\) = units of Product B to manufacture\n\nStep 2: Organize the Data\n\n\n\nResource\nProduct A\nProduct B\nAvailable\n\n\n\n\nMachine 1\n2 hrs\n1 hr\n100 hrs\n\n\nMachine 2\n1 hr\n2 hrs\n80 hrs\n\n\nProfit\n$30\n$40\nMaximize"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-7",
     "href": "Course_Web/Slides/Week_1/index.html#standard-form-of-lp-models-7",
     "title": "Operation Research",
     "section": "Standard Form of LP Models",
-    "text": "Standard Form of LP Models\n\nExample 2\n\nModel\nMaximize: \\(Z = 30x_1 + 40x_2\\)\nSubject to: \\(\\begin{align}\n2x_1 + x_2 &\\leq 100 \\quad \\text{(Machine 1)}\\\\\nx_1 + 2x_2 &\\leq 80 \\quad \\text{(Machine 2)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\)"
+    "text": "Standard Form of LP Models\nExample 2\nModel\nMaximize: \\(Z = 30x_1 + 40x_2\\)\nSubject to: \\(\\begin{align}\n2x_1 + x_2 &\\leq 100 \\quad \\text{(Machine 1)}\\\\\nx_1 + 2x_2 &\\leq 80 \\quad \\text{(Machine 2)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method",
@@ -298,133 +207,133 @@
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-1",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nSteps\n\n\nConvert each inequality constraint into an equation.\n\n\n\n\nPlot all the equations on a graph.\n\n\n\n\nIdentify the feasible region — every point on each line satisfies its corresponding equation.\n\n\n\n\nFor “≤” constraints, shade below the line; for “≥”, shade above.\nThe overlapping area that satisfies all constraints is the feasible region.\n\n\n\n\nDetermine the coordinates of all corner (vertex) points of the feasible region.\n\n\n\n\nSubstitute these coordinates into the objective function to calculate the value of ( Z ) for each point."
+    "text": "Graphical Method\nSteps\n\n\nConvert each inequality constraint into an equation.\n\n\n\n\nPlot all the equations on a graph.\n\n\n\n\nIdentify the feasible region — every point on each line satisfies its corresponding equation.\n\n\n\n\nFor “≤” constraints, shade below the line; for “≥”, shade above.\nThe overlapping area that satisfies all constraints is the feasible region.\n\n\n\n\nDetermine the coordinates of all corner (vertex) points of the feasible region.\n\n\n\n\nSubstitute these coordinates into the objective function to calculate the value of ( Z ) for each point."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-2",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-2",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nExample\nTaking problem from Example 1:\nMaximize: \\(Z = 5x_1 + 4x_2\\)\nSubject to: \\[\\begin{align}\n4x_1 + 3x_2 &\\leq 24 \\quad \\text{(Material A)}\\\\\n3x_1 + 6x_2 &\\leq 30 \\quad \\text{(Material B)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\]\n\n\nStep 1: Convert to Equations\nConvert inequalities to equations:\n\nMaterial A: \\(4x_1 + 3x_2 = 24\\)\nMaterial B: \\(3x_1 + 6x_2 = 30\\)"
+    "text": "Graphical Method\nExample\nTaking problem from Example 1:\nMaximize: \\(Z = 5x_1 + 4x_2\\)\nSubject to: \\[\\begin{align}\n4x_1 + 3x_2 &\\leq 24 \\quad \\text{(Material A)}\\\\\n3x_1 + 6x_2 &\\leq 30 \\quad \\text{(Material B)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\]"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-3",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-3",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 2: Find Intercepts\nFor Material A: \\(4x_1 + 3x_2 = 24\\)\n\nWhen \\(x_1 = 0\\): \\(3x_2 = 24\\) → \\(x_2 = 8\\)\nWhen \\(x_2 = 0\\): \\(4x_1 = 24\\) → \\(x_1 = 6\\)\n\nFor Material B: \\(3x_1 + 6x_2 = 30\\)\n\nWhen \\(x_1 = 0\\): \\(6x_2 = 30\\) → \\(x_2 = 5\\)\nWhen \\(x_2 = 0\\): \\(3x_1 = 30\\) → \\(x_1 = 10\\)"
+    "text": "Graphical Method\nStep 2: Find Intercepts\nFor Material A: \\(4x_1 + 3x_2 = 24\\)\n\nWhen \\(x_1 = 0\\): \\(3x_2 = 24\\) → \\(x_2 = 8\\)\nWhen \\(x_2 = 0\\): \\(4x_1 = 24\\) → \\(x_1 = 6\\)\n\nFor Material B: \\(3x_1 + 6x_2 = 30\\)\n\nWhen \\(x_1 = 0\\): \\(6x_2 = 30\\) → \\(x_2 = 5\\)\nWhen \\(x_2 = 0\\): \\(3x_1 = 30\\) → \\(x_1 = 10\\)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-4",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-4",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 3: Plot the Constraints\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 12, 400)\nx2_A = (24 - 4*x1) / 3\nx2_B = (30 - 3*x1) / 6\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A: $4x_1 + 3x_2 = 24$')\nplt.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B: $3x_1 + 6x_2 = 30$')\n\nplt.scatter([6, 0, 10, 0], [0, 8, 0, 5], color='black', s=80, zorder=5)\nplt.text(6, -0.5, '(6, 0)', ha='center', fontsize=14)\nplt.text(-0.6, 8, '(0, 8)', fontsize=14)\nplt.text(10, -0.5, '(10, 0)', ha='center', fontsize=14)\nplt.text(-0.6, 5, '(0, 5)', fontsize=14)\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')\nplt.grid(alpha=0.25)\nplt.legend(fontsize=14, frameon=False)\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-1, 12)\nplt.ylim(-1, 10)\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 12, 400)\nx2_A = (24 - 4*x1) / 3\nx2_B = (30 - 3*x1) / 6\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A: $4x_1 + 3x_2 = 24$')\nplt.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B: $3x_1 + 6x_2 = 30$')\n\n# Add arrows perpendicular to constraint lines\n# For Material A: 4x1 + 3x2 = 24, the gradient (normal vector) is (4, 3)\narrow_length = 1\nx1_point_A = 3\nx2_point_A = (24 - 4*x1_point_A) / 3\nnormal_A = np.array([-4, -3])\nnormal_A = normal_A / np.linalg.norm(normal_A) * arrow_length\nplt.arrow(x1_point_A, x2_point_A, normal_A[0], normal_A[1], \n          head_width=0.3, head_length=0.25, fc='#2563eb', ec='#2563eb', linewidth=2.5)\n\n# For Material B: 3x1 + 6x2 = 30, the gradient (normal vector) is (3, 6)\nx1_point_B = 6\nx2_point_B = (30 - 3*x1_point_B) / 6\nnormal_B = np.array([-3, -6])\nnormal_B = normal_B / np.linalg.norm(normal_B) * arrow_length\nplt.arrow(x1_point_B, x2_point_B, normal_B[0], normal_B[1],\n          head_width=0.3, head_length=0.25, fc='#dc2626', ec='#dc2626', linewidth=2.5)\n\n# Add arrows for x1 &gt;= 0 constraint (vertical line at x1=0)\n# Normal vector points to the right (positive x1 direction)\nplt.arrow(0, 2, arrow_length, 0,\n          head_width=0.3, head_length=0.25, fc='#16a34a', ec='#16a34a', linewidth=2.5)\n\n# Add arrows for x2 &gt;= 0 constraint (horizontal line at x2=0)\n# Normal vector points upward (positive x2 direction)\nplt.arrow(4, 0, 0, arrow_length,\n          head_width=0.3, head_length=0.25, fc='#9333ea', ec='#9333ea', linewidth=2.5)\n\nplt.scatter([6, 0, 10, 0], [0, 8, 0, 5], color='black', s=80, zorder=5)\nplt.text(6, -0.5, '(6, 0)', ha='center', fontsize=14)\nplt.text(-0.6, 8, '(0, 8)', fontsize=14)\nplt.text(10, -0.5, '(10, 0)', ha='center', fontsize=14)\nplt.text(-0.6, 5, '(0, 5)', fontsize=14)\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')\nplt.grid(alpha=0.25)\nplt.legend(fontsize=14, frameon=False)\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-1, 12)\nplt.ylim(-1, 10)\nplt.tight_layout()\nplt.show()"
+    "text": "Graphical Method\nStep 3: Plot the Constraints\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 12, 400)\nx2_A = (24 - 4*x1) / 3\nx2_B = (30 - 3*x1) / 6\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A: $4x_1 + 3x_2 = 24$')\nplt.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B: $3x_1 + 6x_2 = 30$')\n\nplt.scatter([6, 0, 10, 0], [0, 8, 0, 5], color='black', s=80, zorder=5)\nplt.text(6, -0.5, '(6, 0)', ha='center', fontsize=14)\nplt.text(-0.6, 8, '(0, 8)', fontsize=14)\nplt.text(10, -0.5, '(10, 0)', ha='center', fontsize=14)\nplt.text(-0.6, 5, '(0, 5)', fontsize=14)\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')\nplt.grid(alpha=0.25)\nplt.legend(fontsize=14, frameon=False)\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-1, 12)\nplt.ylim(-1, 10)\nplt.tight_layout()\nplt.show()"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-5",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-5",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 4: Identify Feasible Region\nShade the region that satisfies all constraints:\n\nBelow Material A line (4x₁ + 3x₂ ≤ 24)\nBelow Material B line (3x₁ + 6x₂ ≤ 30)\nFirst quadrant (x₁, x₂ ≥ 0)\n\n\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 12, 400)\nx2_A = (24 - 4*x1) / 3\nx2_B = (30 - 3*x1) / 6\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_A, color='#2563eb', linewidth=2.5, label='$4x_1 + 3x_2 \\\\leq 24$')\nplt.plot(x1, x2_B, color='#dc2626', linewidth=2.5, label='$3x_1 + 6x_2 \\\\leq 30$')\n\nx1_fill = np.linspace(0, 6, 400)\nx2_fill = np.minimum((24 - 4*x1_fill) / 3, (30 - 3*x1_fill) / 6)\nplt.fill_between(x1_fill, 0, x2_fill, alpha=0.35, color='#10b981', label='Feasible Region')\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Feasible Region Visualization', fontsize=22, weight='bold', color='#1e293b')\nplt.legend(fontsize=14, frameon=False)\nplt.grid(alpha=0.25, linestyle='--')\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-1, 12)\nplt.ylim(-1, 10)\nplt.tight_layout()\nplt.show()"
+    "text": "Graphical Method\nStep 4: Identify Feasible Region\nShade the region that satisfies all constraints:\n\nBelow Material A line (4x₁ + 3x₂ ≤ 24)\nBelow Material B line (3x₁ + 6x₂ ≤ 30)\nFirst quadrant (x₁, x₂ ≥ 0)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-6",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-6",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 5: Find Corner Points\nThe corner points of the feasible region are:\n\nPoint A: (0, 0) — Origin\nPoint B: (0, 5) — Intersection with y-axis\nPoint C: (?, ?) — Intersection of two constraints\nPoint D: (6, 0) — Intersection with x-axis\n\nFind Point C: Solve the system: \\[\\begin{align}\n4x_1 + 3x_2 &= 24 \\\\\n3x_1 + 6x_2 &= 30\n\\end{align}\\]"
+    "text": "Graphical Method\nStep 5: Find Corner Points\nThe corner points of the feasible region are:\n\nPoint A: (0, 0) — Origin\nPoint B: (0, 5) — Intersection with y-axis\nPoint C: (?, ?) — Intersection of two constraints\nPoint D: (6, 0) — Intersection with x-axis\n\nFind Point C: Solve the system: \\[\\begin{align}\n4x_1 + 3x_2 &= 24 \\\\\n3x_1 + 6x_2 &= 30\n\\end{align}\\]"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-7",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-7",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nFinding Point C\nMethod: Elimination\nMultiply first equation by 2: \\[8x_1 + 6x_2 = 48 \\quad \\text{...(1)}\\]\nKeep second equation: \\[3x_1 + 6x_2 = 30 \\quad \\text{...(2)}\\]\nSubtract (2) from (1): \\[5x_1 = 18 \\implies x_1 = 3.6\\]\nSubstitute back: \\(x_2 = 3.2\\)\nPoint C = (3.6, 3.2)"
+    "text": "Graphical Method\nFinding Point C\nMethod: Elimination\nMultiply first equation by 2: \\[8x_1 + 6x_2 = 48 \\quad \\text{...(1)}\\]\nKeep second equation: \\[3x_1 + 6x_2 = 30 \\quad \\text{...(2)}\\]\nSubtract (2) from (1): \\[5x_1 = 18 \\implies x_1 = 3.6\\]\nSubstitute back: \\(x_2 = 3.2\\)\nPoint C = (3.6, 3.2)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-8",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-8",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nCorner Points Visualization\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, ax = plt.subplots(figsize=(10, 8))\n\nx1 = np.linspace(0, 12, 400)\nx2_A = (24 - 4*x1) / 3\nx2_B = (30 - 3*x1) / 6\n\nax.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A')\nax.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B')\n\nx1_fill = np.linspace(0, 6, 400)\nx2_fill = np.minimum((24 - 4*x1_fill) / 3, (30 - 3*x1_fill) / 6)\nax.fill_between(x1_fill, 0, x2_fill, color='#10b981', alpha=0.4, label='Feasible Region')\n\ncorners = [(0, 0), (0, 5), (3.6, 3.2), (6, 0)]\nlabels = ['A (0, 0)', 'B (0, 5)', 'C (3.6, 3.2)', 'D (6, 0)']\ncolors = ['#0ea5e9', '#f59e0b', '#22c55e', '#6366f1']\n\nfor (x, y), label, c in zip(corners, labels, colors):\n    ax.scatter(x, y, s=150, color=c, edgecolor='black', linewidth=1.2, zorder=5)\n    ax.text(x + 0.25, y + 0.25, label, fontsize=14, weight='bold', color='#1e293b')\n\nax.set_xlabel('$x_1$', fontsize=18, weight='bold')\nax.set_ylabel('$x_2$', fontsize=18, weight='bold')\nax.set_xlim(-1, 12)\nax.set_ylim(-1, 10)\nax.set_title('Corner Points of Feasible Region', fontsize=22, weight='bold', color='#1e293b')\nax.legend(fontsize=14, loc='upper right', frameon=False)\nax.grid(alpha=0.25, linestyle='--')\nax.axhline(0, color='black', linewidth=1.2)\nax.axvline(0, color='black', linewidth=1.2)\nplt.tight_layout()\nplt.show()"
+    "text": "Graphical Method\nCorner Points Visualization\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, ax = plt.subplots(figsize=(10, 8))\n\nx1 = np.linspace(0, 12, 400)\nx2_A = (24 - 4*x1) / 3\nx2_B = (30 - 3*x1) / 6\n\nax.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A')\nax.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B')\n\nx1_fill = np.linspace(0, 6, 400)\nx2_fill = np.minimum((24 - 4*x1_fill) / 3, (30 - 3*x1_fill) / 6)\nax.fill_between(x1_fill, 0, x2_fill, color='#10b981', alpha=0.4, label='Feasible Region')\n\ncorners = [(0, 0), (0, 5), (3.6, 3.2), (6, 0)]\nlabels = ['A (0, 0)', 'B (0, 5)', 'C (3.6, 3.2)', 'D (6, 0)']\ncolors = ['#0ea5e9', '#f59e0b', '#22c55e', '#6366f1']\n\nfor (x, y), label, c in zip(corners, labels, colors):\n    ax.scatter(x, y, s=150, color=c, edgecolor='black', linewidth=1.2, zorder=5)\n    ax.text(x + 0.25, y + 0.25, label, fontsize=14, weight='bold', color='#1e293b')\n\nax.set_xlabel('$x_1$', fontsize=18, weight='bold')\nax.set_ylabel('$x_2$', fontsize=18, weight='bold')\nax.set_xlim(-1, 12)\nax.set_ylim(-1, 10)\nax.set_title('Corner Points of Feasible Region', fontsize=22, weight='bold', color='#1e293b')\nax.legend(fontsize=14, loc='upper right', frameon=False)\nax.grid(alpha=0.25, linestyle='--')\nax.axhline(0, color='black', linewidth=1.2)\nax.axvline(0, color='black', linewidth=1.2)\nplt.tight_layout()\nplt.show()"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-9",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-9",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 6: Evaluate Objective Function\nSubstitute each corner point into \\(Z = 5x_1 + 4x_2\\):\n\n\n\nPoint\n\\((x_1, x_2)\\)\n\\(Z = 5x_1 + 4x_2\\)\nValue\n\n\n\n\nA\n(0, 0)\n\\(5(0) + 4(0)\\)\n0\n\n\nB\n(0, 5)\n\\(5(0) + 4(5)\\)\n20\n\n\nC\n(3.6, 3.2)\n\\(5(3.6) + 4(3.2)\\)\n30.8\n\n\nD\n(6, 0)\n\\(5(6) + 4(0)\\)\n30\n\n\n\nMaximum value: \\(Z = 30.8\\) at point C (3.6, 3.2)"
+    "text": "Graphical Method\nStep 6: Evaluate Objective Function\nSubstitute each corner point into \\(Z = 5x_1 + 4x_2\\):\n\n\n\nPoint\n\\((x_1, x_2)\\)\n\\(Z = 5x_1 + 4x_2\\)\nValue\n\n\n\n\nA\n(0, 0)\n\\(5(0) + 4(0)\\)\n0\n\n\nB\n(0, 5)\n\\(5(0) + 4(5)\\)\n20\n\n\nC\n(3.6, 3.2)\n\\(5(3.6) + 4(3.2)\\)\n30.8\n\n\nD\n(6, 0)\n\\(5(6) + 4(0)\\)\n30\n\n\n\nMaximum value: \\(Z = 30.8\\) at point C (3.6, 3.2)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-10",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-10",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nOptimal Solution\n\n\n\n\n\n\nFinal Answer\n\n\n\nOptimal Production Plan: - Produce \\(x_1^* = 3.6\\) tons of Paint 1 - Produce \\(x_2^* = 3.2\\) tons of Paint 2\nMaximum Profit: \\(Z^* = \\$30.80\\)\nResource Utilization: - Material A: \\(4(3.6) + 3(3.2) = 24\\) units ✓ (fully used) - Material B: \\(3(3.6) + 6(3.2) = 30\\) units ✓ (fully used)\nBoth resources are binding constraints (fully utilized)."
+    "text": "Graphical Method\nOptimal Solution\n\n\n\n\n\n\nFinal Answer\n\n\nOptimal Production Plan: - Produce \\(x_1^* = 3.6\\) tons of Paint 1 - Produce \\(x_2^* = 3.2\\) tons of Paint 2\nMaximum Profit: \\(Z^* = \\$30.80\\)\nResource Utilization: - Material A: \\(4(3.6) + 3(3.2) = 24\\) units ✓ (fully used) - Material B: \\(3(3.6) + 6(3.2) = 30\\) units ✓ (fully used)\nBoth resources are binding constraints (fully utilized)."
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-11",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-11",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nExample 2\nTaking problem from Example 2:\nMaximize: \\(Z = 30x_1 + 40x_2\\)\nSubject to: \\[\\begin{align}\n2x_1 + x_2 &\\leq 100 \\quad \\text{(Machine 1)}\\\\\nx_1 + 2x_2 &\\leq 80 \\quad \\text{(Machine 2)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\]\n\n\nStep 1: Convert to Equations\nConvert inequalities to equations:\n\nMachine 1: \\(2x_1 + x_2 = 100\\)\nMachine 2: \\(x_1 + 2x_2 = 80\\)"
+    "text": "Graphical Method\nExample 2\nTaking problem from Example 2:\nMaximize: \\(Z = 30x_1 + 40x_2\\)\nSubject to: \\[\\begin{align}\n2x_1 + x_2 &\\leq 100 \\quad \\text{(Machine 1)}\\\\\nx_1 + 2x_2 &\\leq 80 \\quad \\text{(Machine 2)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\]"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-12",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-12",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 2: Find Intercepts\nFor Machine 1: \\(2x_1 + x_2 = 100\\)\n\nWhen \\(x_1 = 0\\): \\(x_2 = 100\\)\nWhen \\(x_2 = 0\\): \\(2x_1 = 100\\) → \\(x_1 = 50\\)\n\nFor Machine 2: \\(x_1 + 2x_2 = 80\\)\n\nWhen \\(x_1 = 0\\): \\(2x_2 = 80\\) → \\(x_2 = 40\\)\nWhen \\(x_2 = 0\\): \\(x_1 = 80\\)"
+    "text": "Graphical Method\nStep 2: Find Intercepts\nFor Machine 1: \\(2x_1 + x_2 = 100\\)\n\nWhen \\(x_1 = 0\\): \\(x_2 = 100\\)\nWhen \\(x_2 = 0\\): \\(2x_1 = 100\\) → \\(x_1 = 50\\)\n\nFor Machine 2: \\(x_1 + 2x_2 = 80\\)\n\nWhen \\(x_1 = 0\\): \\(2x_2 = 80\\) → \\(x_2 = 40\\)\nWhen \\(x_2 = 0\\): \\(x_1 = 80\\)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-13",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-13",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 3: Plot the Constraints\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 90, 400)\nx2_M1 = 100 - 2*x1\nx2_M2 = (80 - x1) / 2\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1: $2x_1 + x_2 = 100$')\nplt.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2: $x_1 + 2x_2 = 80$')\n\nplt.scatter([50, 0, 80, 0], [0, 100, 0, 40], color='black', s=80, zorder=5)\nplt.text(50, -4, '(50, 0)', ha='center', fontsize=14)\nplt.text(-4, 100, '(0, 100)', fontsize=14)\nplt.text(80, -4, '(80, 0)', ha='center', fontsize=14)\nplt.text(-4, 40, '(0, 40)', fontsize=14)\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')\nplt.grid(alpha=0.25)\nplt.legend(fontsize=14, frameon=False)\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-5, 90)\nplt.ylim(-5, 110)\nplt.tight_layout()\nplt.show()\n\n\n\n\n\n\n\n\n\n\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 90, 400)\nx2_M1 = 100 - 2*x1\nx2_M2 = (80 - x1) / 2\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1: $2x_1 + x_2 = 100$')\nplt.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2: $x_1 + 2x_2 = 80$')\n\n# Add arrows perpendicular to constraint lines\n# For Machine 1: 2x1 + x2 = 100, the gradient (normal vector) is (2, 1)\narrow_length = 10\nx1_point_M1 = 25\nx2_point_M1 = 100 - 2*x1_point_M1\nnormal_M1 = np.array([-2, -1])\nnormal_M1 = normal_M1 / np.linalg.norm(normal_M1) * arrow_length\nplt.arrow(x1_point_M1, x2_point_M1, normal_M1[0], normal_M1[1], \n          head_width=3, head_length=2.5, fc='#2563eb', ec='#2563eb', linewidth=2.5)\n\n# For Machine 2: x1 + 2x2 = 80, the gradient (normal vector) is (1, 2)\nx1_point_M2 = 40\nx2_point_M2 = (80 - x1_point_M2) / 2\nnormal_M2 = np.array([-1, -2])\nnormal_M2 = normal_M2 / np.linalg.norm(normal_M2) * arrow_length\nplt.arrow(x1_point_M2, x2_point_M2, normal_M2[0], normal_M2[1],\n          head_width=3, head_length=2.5, fc='#dc2626', ec='#dc2626', linewidth=2.5)\n\n# Add arrows for x1 &gt;= 0 constraint (vertical line at x1=0)\nplt.arrow(0, 20, arrow_length, 0,\n          head_width=3, head_length=2.5, fc='#16a34a', ec='#16a34a', linewidth=2.5)\n\n# Add arrows for x2 &gt;= 0 constraint (horizontal line at x2=0)\nplt.arrow(30, 0, 0, arrow_length,\n          head_width=3, head_length=2.5, fc='#9333ea', ec='#9333ea', linewidth=2.5)\n\nplt.scatter([50, 0, 80, 0], [0, 100, 0, 40], color='black', s=80, zorder=5)\nplt.text(50, -4, '(50, 0)', ha='center', fontsize=14)\nplt.text(-4, 100, '(0, 100)', fontsize=14)\nplt.text(80, -4, '(80, 0)', ha='center', fontsize=14)\nplt.text(-4, 40, '(0, 40)', fontsize=14)\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')\nplt.grid(alpha=0.25)\nplt.legend(fontsize=14, frameon=False)\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-5, 90)\nplt.ylim(-5, 110)\nplt.tight_layout()\nplt.show()"
+    "text": "Graphical Method\nStep 3: Plot the Constraints\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 90, 400)\nx2_M1 = 100 - 2*x1\nx2_M2 = (80 - x1) / 2\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1: $2x_1 + x_2 = 100$')\nplt.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2: $x_1 + 2x_2 = 80$')\n\nplt.scatter([50, 0, 80, 0], [0, 100, 0, 40], color='black', s=80, zorder=5)\nplt.text(50, -4, '(50, 0)', ha='center', fontsize=14)\nplt.text(-4, 100, '(0, 100)', fontsize=14)\nplt.text(80, -4, '(80, 0)', ha='center', fontsize=14)\nplt.text(-4, 40, '(0, 40)', fontsize=14)\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')\nplt.grid(alpha=0.25)\nplt.legend(fontsize=14, frameon=False)\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-5, 90)\nplt.ylim(-5, 110)\nplt.tight_layout()\nplt.show()"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-14",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-14",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 4: Identify Feasible Region\nShade the region that satisfies all constraints:\n\nBelow Machine 1 line (2x₁ + x₂ ≤ 100)\nBelow Machine 2 line (x₁ + 2x₂ ≤ 80)\nFirst quadrant (x₁, x₂ ≥ 0)\n\n\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 90, 400)\nx2_M1 = 100 - 2*x1\nx2_M2 = (80 - x1) / 2\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_M1, color='#2563eb', linewidth=2.5, label='$2x_1 + x_2 \\\\leq 100$')\nplt.plot(x1, x2_M2, color='#dc2626', linewidth=2.5, label='$x_1 + 2x_2 \\\\leq 80$')\n\nx1_fill = np.linspace(0, 50, 400)\nx2_fill = np.minimum(100 - 2*x1_fill, (80 - x1_fill) / 2)\nplt.fill_between(x1_fill, 0, x2_fill, alpha=0.35, color='#10b981', label='Feasible Region')\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Feasible Region Visualization', fontsize=22, weight='bold', color='#1e293b')\nplt.legend(fontsize=14, frameon=False)\nplt.grid(alpha=0.25, linestyle='--')\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-5, 90)\nplt.ylim(-5, 110)\nplt.tight_layout()\nplt.show()"
+    "text": "Graphical Method\nStep 4: Identify Feasible Region\nShade the region that satisfies all constraints:\n\nBelow Machine 1 line (2x₁ + x₂ ≤ 100)\nBelow Machine 2 line (x₁ + 2x₂ ≤ 80)\nFirst quadrant (x₁, x₂ ≥ 0)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-15",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-15",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 5: Find Corner Points\nThe corner points of the feasible region are:\n\nPoint A: (0, 0) — Origin\nPoint B: (0, 40) — Intersection with y-axis\nPoint C: (?, ?) — Intersection of two constraints\nPoint D: (50, 0) — Intersection with x-axis\n\nFind Point C: Solve the system: \\[\\begin{align}\n2x_1 + x_2 &= 100 \\\\\nx_1 + 2x_2 &= 80\n\\end{align}\\]"
+    "text": "Graphical Method\nStep 5: Find Corner Points\nThe corner points of the feasible region are:\n\nPoint A: (0, 0) — Origin\nPoint B: (0, 40) — Intersection with y-axis\nPoint C: (?, ?) — Intersection of two constraints\nPoint D: (50, 0) — Intersection with x-axis\n\nFind Point C: Solve the system: \\[\\begin{align}\n2x_1 + x_2 &= 100 \\\\\nx_1 + 2x_2 &= 80\n\\end{align}\\]"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-16",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-16",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nFinding Point C\nMethod: Elimination\nMultiply second equation by 2: \\[2x_1 + 4x_2 = 160 \\quad \\text{...(1)}\\]\nKeep first equation: \\[2x_1 + x_2 = 100 \\quad \\text{...(2)}\\]\nSubtract (2) from (1): \\[3x_2 = 60 \\implies x_2 = 20\\]\nSubstitute back: \\(2x_1 + 20 = 100 \\implies x_1 = 40\\)\nPoint C = (40, 20)"
+    "text": "Graphical Method\nFinding Point C\nMethod: Elimination\nMultiply second equation by 2: \\[2x_1 + 4x_2 = 160 \\quad \\text{...(1)}\\]\nKeep first equation: \\[2x_1 + x_2 = 100 \\quad \\text{...(2)}\\]\nSubtract (2) from (1): \\[3x_2 = 60 \\implies x_2 = 20\\]\nSubstitute back: \\(2x_1 + 20 = 100 \\implies x_1 = 40\\)\nPoint C = (40, 20)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-17",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-17",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nCorner Points Visualization\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, ax = plt.subplots(figsize=(10, 8))\n\nx1 = np.linspace(0, 90, 400)\nx2_M1 = 100 - 2*x1\nx2_M2 = (80 - x1) / 2\n\nax.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1')\nax.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2')\n\nx1_fill = np.linspace(0, 50, 400)\nx2_fill = np.minimum(100 - 2*x1_fill, (80 - x1_fill) / 2)\nax.fill_between(x1_fill, 0, x2_fill, color='#10b981', alpha=0.4, label='Feasible Region')\n\ncorners = [(0, 0), (0, 40), (40, 20), (50, 0)]\nlabels = ['A (0, 0)', 'B (0, 40)', 'C (40, 20)', 'D (50, 0)']\ncolors = ['#0ea5e9', '#f59e0b', '#22c55e', '#6366f1']\n\nfor (x, y), label, c in zip(corners, labels, colors):\n    ax.scatter(x, y, s=150, color=c, edgecolor='black', linewidth=1.2, zorder=5)\n    ax.text(x + 2, y + 2.5, label, fontsize=14, weight='bold', color='#1e293b')\n\nax.set_xlabel('$x_1$', fontsize=18, weight='bold')\nax.set_ylabel('$x_2$', fontsize=18, weight='bold')\nax.set_xlim(-5, 90)\nax.set_ylim(-5, 110)\nax.set_title('Corner Points of Feasible Region', fontsize=22, weight='bold', color='#1e293b')\nax.legend(fontsize=14, loc='upper right', frameon=False)\nax.grid(alpha=0.25, linestyle='--')\nax.axhline(0, color='black', linewidth=1.2)\nax.axvline(0, color='black', linewidth=1.2)\nplt.tight_layout()\nplt.show()"
+    "text": "Graphical Method\nCorner Points Visualization\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, ax = plt.subplots(figsize=(10, 8))\n\nx1 = np.linspace(0, 90, 400)\nx2_M1 = 100 - 2*x1\nx2_M2 = (80 - x1) / 2\n\nax.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1')\nax.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2')\n\nx1_fill = np.linspace(0, 50, 400)\nx2_fill = np.minimum(100 - 2*x1_fill, (80 - x1_fill) / 2)\nax.fill_between(x1_fill, 0, x2_fill, color='#10b981', alpha=0.4, label='Feasible Region')\n\ncorners = [(0, 0), (0, 40), (40, 20), (50, 0)]\nlabels = ['A (0, 0)', 'B (0, 40)', 'C (40, 20)', 'D (50, 0)']\ncolors = ['#0ea5e9', '#f59e0b', '#22c55e', '#6366f1']\n\nfor (x, y), label, c in zip(corners, labels, colors):\n    ax.scatter(x, y, s=150, color=c, edgecolor='black', linewidth=1.2, zorder=5)\n    ax.text(x + 2, y + 2.5, label, fontsize=14, weight='bold', color='#1e293b')\n\nax.set_xlabel('$x_1$', fontsize=18, weight='bold')\nax.set_ylabel('$x_2$', fontsize=18, weight='bold')\nax.set_xlim(-5, 90)\nax.set_ylim(-5, 110)\nax.set_title('Corner Points of Feasible Region', fontsize=22, weight='bold', color='#1e293b')\nax.legend(fontsize=14, loc='upper right', frameon=False)\nax.grid(alpha=0.25, linestyle='--')\nax.axhline(0, color='black', linewidth=1.2)\nax.axvline(0, color='black', linewidth=1.2)\nplt.tight_layout()\nplt.show()"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-18",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-18",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nStep 6: Evaluate Objective Function\nSubstitute each corner point into \\(Z = 30x_1 + 40x_2\\):\n\n\n\nPoint\n\\((x_1, x_2)\\)\n\\(Z = 30x_1 + 40x_2\\)\nValue\n\n\n\n\nA\n(0, 0)\n\\(30(0) + 40(0)\\)\n0\n\n\nB\n(0, 40)\n\\(30(0) + 40(40)\\)\n1600\n\n\nC\n(40, 20)\n\\(30(40) + 40(20)\\)\n2000\n\n\nD\n(50, 0)\n\\(30(50) + 40(0)\\)\n1500\n\n\n\nMaximum value: \\(Z = 2000\\) at point C (40, 20)"
+    "text": "Graphical Method\nStep 6: Evaluate Objective Function\nSubstitute each corner point into \\(Z = 30x_1 + 40x_2\\):\n\n\n\nPoint\n\\((x_1, x_2)\\)\n\\(Z = 30x_1 + 40x_2\\)\nValue\n\n\n\n\nA\n(0, 0)\n\\(30(0) + 40(0)\\)\n0\n\n\nB\n(0, 40)\n\\(30(0) + 40(40)\\)\n1600\n\n\nC\n(40, 20)\n\\(30(40) + 40(20)\\)\n2000\n\n\nD\n(50, 0)\n\\(30(50) + 40(0)\\)\n1500\n\n\n\nMaximum value: \\(Z = 2000\\) at point C (40, 20)"
   },
   {
     "objectID": "Course_Web/Slides/Week_1/index.html#graphical-method-19",
     "href": "Course_Web/Slides/Week_1/index.html#graphical-method-19",
     "title": "Operation Research",
     "section": "Graphical Method",
-    "text": "Graphical Method\n\nOptimal Solution\n\n\n\n\n\n\nFinal Answer\n\n\n\nOptimal Production Plan: - Produce \\(x_1^* = 40\\) units of Product A - Produce \\(x_2^* = 20\\) units of Product B\nMaximum Profit: \\(Z^* = \\$2000\\)\nResource Utilization: - Machine 1: \\(2(40) + 20 = 100\\) hours ✓ (fully used) - Machine 2: \\(40 + 2(20) = 80\\) hours ✓ (fully used)\nBoth machines are binding constraints (fully utilized)."
+    "text": "Graphical Method\nOptimal Solution\n\n\n\n\n\n\nFinal Answer\n\n\nOptimal Production Plan: - Produce \\(x_1^* = 40\\) units of Product A - Produce \\(x_2^* = 20\\) units of Product B\nMaximum Profit: \\(Z^* = \\$2000\\)\nResource Utilization: - Machine 1: \\(2(40) + 20 = 100\\) hours ✓ (fully used) - Machine 2: \\(40 + 2(20) = 80\\) hours ✓ (fully used)\nBoth machines are binding constraints (fully utilized)."
   },
   {
     "objectID": "Course_Web/about.html",
@@ -432,6 +341,34 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "certificates.html",
+    "href": "certificates.html",
+    "title": "Certificates",
+    "section": "",
+    "text": "2024\n\n\n\nGoogle Advanced Data Analytics Professional Certificate – Coursera & Google\n(Completed: February 2024)\nA comprehensive 7-course program covering statistics, data analysis, machine learning, and data-driven decision-making.\nCourses Completed:\n\nFoundations of Data Science\n\nGet Started with Python\n\nGo Beyond the Numbers: Translate Data Into Insights\nThe Power of Statistics\n\nRegression Analysis: Simplify Complex Data Relationship\nThe Nuts and Bolts of Machine Learning\nGoogle Advanced Data Analytics Capstone\n\n\n\n\n  \n\n\n\n\n2023\n\n\n\n\nIntroduction to Databases – Coursera & Meta\nA foundational course from Meta introducing core database concepts and SQL for data querying and management.\n\n\n\n  \n\n\n\n\n\n\nShare Data Through the Art of Visualization – Coursera & Google\nA hands-on course covering data visualization on Tableau. Starting from data preparation to the concept of data visualization to get the best insights.\n\n\n\n  \n\n\n\n\n\n\nDatabases and SQL for Data Science with Python – Coursera & IBM\nA practical course focused on using SQL to query databases, designed specifically for data science workflows with Python.\n\n\n\n  \n\n\n\n\n\n\nPython and Pandas for Data Engineering – Coursera & Duke University\nA hands-on course focusing on data engineering tools using Python and Pandas. Includes project environment setup, working with data structures, and essential development tools."
+  },
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Contact / CV",
+    "section": "",
+    "text": "📧 Email: sothearithmin@gmail.com\n\n🌐 Website: https://sothearith-min.github.io/minsothearith.github.io/\n\n📝 Download CV"
+  },
+  {
+    "objectID": "contacts.html#contact-me",
+    "href": "contacts.html#contact-me",
+    "title": "Contact / CV",
+    "section": "",
+    "text": "📧 Email: sothearithmin@gmail.com\n\n🌐 Website: https://sothearith-min.github.io/minsothearith.github.io/\n\n📝 Download CV"
+  },
+  {
+    "objectID": "contacts.html#teaching-or-collaboration",
+    "href": "contacts.html#teaching-or-collaboration",
+    "title": "Contact / CV",
+    "section": "Teaching or Collaboration?",
+    "text": "Teaching or Collaboration?\nFeel free to reach out via email or social media if you’re interested in collaborating on climate science, climate changes or data analysis projects."
   },
   {
     "objectID": "Course_Web/index.html",
@@ -488,5 +425,47 @@
     "title": "Operations Research",
     "section": "📬 Questions or Concerns?",
     "text": "📬 Questions or Concerns?\nFeel free to reach out anytime!"
+  },
+  {
+    "objectID": "gallery.html#thesis-defence",
+    "href": "gallery.html#thesis-defence",
+    "title": "Gallery",
+    "section": "Thesis Defence",
+    "text": "Thesis Defence"
+  },
+  {
+    "objectID": "gallery.html#kwra-conferences-2025",
+    "href": "gallery.html#kwra-conferences-2025",
+    "title": "Gallery",
+    "section": "KWRA conferences 2025",
+    "text": "KWRA conferences 2025"
+  },
+  {
+    "objectID": "gallery.html#kwra-conferences-2024",
+    "href": "gallery.html#kwra-conferences-2024",
+    "title": "Gallery",
+    "section": "KWRA conferences 2024",
+    "text": "KWRA conferences 2024"
+  },
+  {
+    "objectID": "gallery.html#startup-thailand-league-2023",
+    "href": "gallery.html#startup-thailand-league-2023",
+    "title": "Gallery",
+    "section": "StartUP Thailand League 2023",
+    "text": "StartUP Thailand League 2023"
+  },
+  {
+    "objectID": "publications.html#publications",
+    "href": "publications.html#publications",
+    "title": "Publications & Talks",
+    "section": "Publications",
+    "text": "Publications\n\n2025\n\nMin, S., K.-H. Ahn. Projections and uncertainty decomposition in CMIP6 models for extreme precipitation scaling rates. Journal of Hydrology. https://doi.org/10.1016/j.jhydrol.2025.133260"
+  },
+  {
+    "objectID": "publications.html#conferences",
+    "href": "publications.html#conferences",
+    "title": "Publications & Talks",
+    "section": "Conferences",
+    "text": "Conferences\n\nDecomposing Uncertainty in Projected Changes in Extreme Precipitation: A Dynamic and Thermodynamic Perspective\n23 May 2025\nYeosu, South Korea – Korea Water Resources Association Annual Conference\n I presented research on the exploration of uncertainty in extreme precipitation and its two components: thermodynamic and dynamic processes, as well as their associated uncertainties. The study decomposes total projection uncertainty into three well-known sources in climate science: model structure, emission scenarios, and internal variability.\nYou can find my presentation here. \n\n\nDecomposing uncertainty in extreme precipitation scaling rates for future climate projection\n10 May 2024\nJeju, South Korea – Korea Water Resources Association Annual Conference\n Extreme precipitation is strongly linked to temperature, as warmer conditions allow the atmosphere to hold more moisture, enhancing the potential for intense rainfall. However, this relationship is found to be highly uncertain. In this talk, I explored the uncertainty surrounding the projected increase rates of extreme precipitation under future climate scenarios.\nI was selected as the Oral Best Presentation Winner for the international session.\nYou can find my presentation here."
   }
 ]
