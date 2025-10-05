@@ -1,0 +1,464 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Operations Research",
+    "section": "",
+    "text": "Lecturer: Sothearith Min | Contact: https://sothearith-min.github.io/minsothearith.github.io/"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "Operations Research",
+    "section": "📚 Course Overview",
+    "text": "📚 Course Overview\nOperations Research (OR) is the discipline of applying advanced analytical methods to help make better decisions. This course covers the essential tools and techniques used by organizations worldwide to optimize resources, improve efficiency, and solve complex problems."
+  },
+  {
+    "objectID": "index.html#course-objectives",
+    "href": "index.html#course-objectives",
+    "title": "Operations Research",
+    "section": "🎯 Course Objectives",
+    "text": "🎯 Course Objectives\nBy the end of this course, you will be able to:\n\nFormulate real-world problems as mathematical models\nApply optimization techniques to find optimal solutions\nUse computational tools to solve large-scale problems\nInterpret results and communicate insights effectively\nMake data-driven decisions in business and engineering contexts"
+  },
+  {
+    "objectID": "index.html#resources",
+    "href": "index.html#resources",
+    "title": "Operations Research",
+    "section": "📖 Resources",
+    "text": "📖 Resources\n\nRecommended Textbooks\n\nIntroduction to Operations Research by Hillier & Lieberman\nOperations Research: Applications and Algorithms by Wayne Winston\n\n\n\nSoftware Tools\n\nPython"
+  },
+  {
+    "objectID": "index.html#contact-office-hours",
+    "href": "index.html#contact-office-hours",
+    "title": "Operations Research",
+    "section": "📧 Contact & Office Hours",
+    "text": "📧 Contact & Office Hours\nInstructor: [SOthearith Min]\nEmail: [min.sothearith@itc.edu.kh]\n—\n\n\n\n\n\n\n💡 Getting Started\n\n\n\nReady to begin? Check the syllabus and join our first class to dive into the fascinating world of optimization!"
+  },
+  {
+    "objectID": "index.html#course-information",
+    "href": "index.html#course-information",
+    "title": "Operations Research",
+    "section": "📚 Course Information",
+    "text": "📚 Course Information\nCredits: 3 (Course = 2, TD = 1, TP = 0)\nCourse Hours: 32 hours per semester\nTutorial (TD): 32 hours per semester\n\nAssessment Breakdown\n\nAttendance: 10%\nAssignment: 10%\nClass Activities: 10%\nMid-term Exam: 30%\nFinal Exam: 40%"
+  },
+  {
+    "objectID": "index.html#reference-textbooks",
+    "href": "index.html#reference-textbooks",
+    "title": "Operations Research",
+    "section": "📖 Reference Textbooks",
+    "text": "📖 Reference Textbooks\n\nTaha, H. A. (2017). Operations Research: An Introduction (10th ed.). Pearson.\nHillier, F. S., Lieberman, G. J. (2021). Introduction to Operations Research (11th ed.). McGraw-Hill Education.\nBaker, K. R., Trietsch, D. (2009). Principles of Sequencing and Scheduling. John Wiley & Sons."
+  },
+  {
+    "objectID": "index.html#course-content",
+    "href": "index.html#course-content",
+    "title": "Operations Research",
+    "section": "📅 Course Content",
+    "text": "📅 Course Content\n\nChapter 1: Linear Programming and Simplex Method (4 hours)\n1.1 Introduction to OR\n\nDefinition and Scope of Applications\n\n1.2 Review of LP\n\nObjective Function, Decision Variables, Constraints\nStandard Form\nGraphical Solution\n\n1.3 The Simplex Method\n\nConcept of Simplex\nPractices of Simplex Method\nSensitivity Analysis\n\n\n\n\nChapter 2: Transportation and Assignment Problems (8 hours)\n2.1 Transportation\n\nIntroduction\nBalanced vs Unbalanced Problems\nInitial Feasible Solution: Northwest Corner Rule\nOptimality Test: MODI / Stepping Stone\nMaximization Case\nDegeneracy\nTime Minimization\nTransshipment Problem\nRedundancy\n\n2.2 Assignment\n\nIntroduction\nComparison with Transportation Problem\nFormulation of Assignment Problem\nHungarian Method\nApplications: Scheduling Problem\n\n\n\n\nChapter 3: Sequencing and Queuing Models (8 hours)\n3.1 Sequencing Models\nSingle Machine Sequencing\n\nPriority Rules: FCFS, SPT, EDD\nApplying Priority Rules to Determine Sequence\n\nN Jobs on M Machines\n\nFormulation\nExact and Heuristic Solutions\n\n3.2 Queuing Models\nM/M/1 Queue\n\nSystem Components: λ, μ, ρ\nPerformance Measures: L, Lq, W, Wq\n\nM/M/c Queue\n\nMulti-Server System\nUtilization and Performance Measures\nErlang-C Formula\n\n\n\n\nChapter 4: Replacement and Staffing Problems (6 hours)\n4.1 Replacement\n\nFailure Mechanisms of Items\nGradual Efficiency Loss vs Sudden Failure\nGeneral Approaches to Replacement\nReplacement with Increasing Maintenance Costs\nPresent Value Criteria\nSudden Failure of Expensive Items\n\n4.2 Staffing\n\nIntroduction and Importance\nStaff Rotation Scheduling\nApplication of Replacement Methods to Staff\nOptimal Staffing Levels\nCase Studies / Examples\n\n\n\n\nChapter 5: Game Theory (6 hours)\n5.1 Introduction to Game Theory\n\nConcept, Scope and Applications\nTypes of Games: Zero-Sum, Non-Zero-Sum, Cooperative, Non-Cooperative\n\n5.2 Solution Methods\n\nPayoff Matrix\nPure Strategies and Dominance Rule\n\n5.3 Mixed Strategies\n\nGames without Saddle Point\nNash Equilibrium (Introductory)\n\n5.4 Applications of Game Theory\n\nApplications in Business\nApplications in Economics\nApplications in Operations\n\n\n\n\n\n\n\n\n💡 Getting Started\n\n\n\nReady to begin? Review the syllabus and prepare for an exciting journey through optimization and decision science!"
+  },
+  {
+    "objectID": "index.html#contact-information",
+    "href": "index.html#contact-information",
+    "title": "Operations Research",
+    "section": "📧 Contact Information",
+    "text": "📧 Contact Information\nInstructor: [Your Name]\nEmail: [your.email@university.edu]\nOffice Hours: [Days & Times]\nLocation: [Room Number]"
+  },
+  {
+    "objectID": "index.html#grading-criteria",
+    "href": "index.html#grading-criteria",
+    "title": "Operations Research",
+    "section": "📊 Grading Criteria",
+    "text": "📊 Grading Criteria\n\n\n\nComponent\nWeight\n\n\n\n\nAttendance\n10%\n\n\nAssignment\n10%\n\n\nClass Activities\n10%\n\n\nMid-term Exam\n30%\n\n\nFinal Exam\n40%"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Operations Research",
+    "section": "📖 References",
+    "text": "📖 References\n\nTaha, H. A. (2017). Operations Research: An Introduction (10th ed.). Pearson.\nHillier, F. S., Lieberman, G. J. (2021). Introduction to Operations Research (11th ed.). McGraw-Hill Education.\nBaker, K. R., Trietsch, D. (2009). Principles of Sequencing and Scheduling. John Wiley & Sons."
+  },
+  {
+    "objectID": "index.html#course-resources",
+    "href": "index.html#course-resources",
+    "title": "Operations Research",
+    "section": "📚 Course Resources",
+    "text": "📚 Course Resources\n\n\n\nWeek\nSlides\nTD\nSolution\n\n\n\n\nWeek 1\nSlides\nTD\nTo be released\n\n\nWeek 2\nLoading…\nLoading…\nLoading…\n\n\nWeek 3\nLoading…\nLoading…\nLoading…\n\n\nWeek 4\nLoading…\nLoading…\nLoading…\n\n\nWeek 5\nLoading…\nLoading…\nLoading…\n\n\nWeek 6\nLoading…\nLoading…\nLoading…\n\n\nWeek 7\nLoading…\nLoading…\nLoading…\n\n\nWeek 8\nLoading…\nLoading…\nLoading…\n\n\nWeek 9\nLoading…\nLoading…\nLoading…\n\n\nWeek 10\nLoading…\nLoading…\nLoading…\n\n\nWeek 11\nLoading…\nLoading…\nLoading…\n\n\nWeek 12\nLoading…\nLoading…\nLoading…\n\n\nWeek 13\nLoading…\nLoading…\nLoading…\n\n\nWeek 14\nLoading…\nLoading…\nLoading…\n\n\nWeek 15\nLoading…\nLoading…\nLoading…\n\n\nWeek 16\nLoading…\nLoading…\nLoading…"
+  },
+  {
+    "objectID": "index.html#learning-hours",
+    "href": "index.html#learning-hours",
+    "title": "Operations Research",
+    "section": "⏰ Learning Hours",
+    "text": "⏰ Learning Hours\nCredits: 3 (Course = 2, TD = 1, TP = 0)\nCourse Hours: 32 hours per semester\nTutorial (TD): 32 hours per semester\n📄 Download Course Syllabus"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#course-overview",
+    "href": "Slides/Week_1/index.html#course-overview",
+    "title": "Operation Research",
+    "section": "Course Overview",
+    "text": "Course Overview\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\n\ncomponents = ['Attendance', 'Assignment', 'Class Activities', 'Mid-term', 'Final']\npercentages = [10, 10, 10, 30, 40]\ncolors = ['#80ffdb', '#56cfe1', '#6930c3', '#7400b8', '#001233']  \n\nfig, ax = plt.subplots(figsize=(8, 3))\n\nfor i, (comp, pct, color) in enumerate(zip(components, percentages, colors)):\n    ax.scatter(i, 0, s=pct*40, color=color, edgecolor='white', linewidth=1.5)\n    ax.text(i, -0.15, comp, ha='center', va='center', fontsize=12, fontname='Trebuchet MS')\n    ax.text(i, 0.2, f'{pct}%', ha='center', va='center', fontsize=14, fontweight='bold', fontname='Trebuchet MS')\n\nax.set_xlim(-0.5, len(components)-0.5)\nax.set_ylim(-0.5, 0.5)\nax.axis('off')\nax.set_title('Assessment Distribution', fontsize=16, fontweight='bold', fontname='Trebuchet MS', pad=10)\n\nplt.tight_layout()\nplt.show()\n\n\n\nProgramming Tools\nWe will use Python in Jupyter Notebook or Google Colab to solve complex problems."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#course-syllabus",
+    "href": "Slides/Week_1/index.html#course-syllabus",
+    "title": "Operation Research",
+    "section": "Course Syllabus",
+    "text": "Course Syllabus\n\n\nYour browser does not support PDFs. Download PDF"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#share-your-expectations-for-this-course",
+    "href": "Slides/Week_1/index.html#share-your-expectations-for-this-course",
+    "title": "Operation Research",
+    "section": "Share your expectations for this course",
+    "text": "Share your expectations for this course\n\n\n👉 Please visit menti.com and enter the code:\n\n\n5471 7573"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#so-what-is-or",
+    "href": "Slides/Week_1/index.html#so-what-is-or",
+    "title": "Operation Research",
+    "section": "So, what is OR?",
+    "text": "So, what is OR?\n\n“Operation Research is the application of scientific methods to the study of problems arising in the management of large systems of men, machines, materials, and money.”\n— George B. Dantzig, the father of Linear Programming(LP)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#history-of-or",
+    "href": "Slides/Week_1/index.html#history-of-or",
+    "title": "Operation Research",
+    "section": "History of OR",
+    "text": "History of OR\nGeorge B. Dantzig – Father of LP & OR\nGeorge B. Dantzig (1914–2005) developed linear programming methods that became fundamental to Operations Research, helping optimize resource allocation in military and civilian applications.\nIn World War II, George B. Dantzig joined the US Air Force’s Operations Research team. He applied mathematical methods to solve practical problems, helping the Air Force plan flight schedules, optimize aircraft deployment, and improve mission efficiency."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#history-of-or-1",
+    "href": "Slides/Week_1/index.html#history-of-or-1",
+    "title": "Operation Research",
+    "section": "History of OR",
+    "text": "History of OR\nThe use of OR in WW II\nDuring World War II, the US Air Force faced a problem:\n\nThey had limited aircraft and resources.\nThey needed to schedule reconnaissance, bombing, and transport missions efficiently.\nMistakes or inefficiencies could waste fuel, delay missions, or reduce coverage."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#history-of-or-2",
+    "href": "Slides/Week_1/index.html#history-of-or-2",
+    "title": "Operation Research",
+    "section": "History of OR",
+    "text": "History of OR\nThe use of OR in WW II\nThat would not be a problem if the the scale is small.\n\n\nShow mermaid code\n\nflowchart LR\n    Base[\"📍 Base\"] ---|🛩️| M1[\"📍 Mission 1\"]\n    M1 ---|🛩️| M2[\"📍 Mission 2\"]\n    M2 ---|🛩️| M3[\"📍 Mission 3\"]\n    M3 ---|🛩️| Base\n\n\n\n\n\n\nflowchart LR\n    Base[\"📍 Base\"] ---|🛩️| M1[\"📍 Mission 1\"]\n    M1 ---|🛩️| M2[\"📍 Mission 2\"]\n    M2 ---|🛩️| M3[\"📍 Mission 3\"]\n    M3 ---|🛩️| Base"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#history-of-or-3",
+    "href": "Slides/Week_1/index.html#history-of-or-3",
+    "title": "Operation Research",
+    "section": "History of OR",
+    "text": "History of OR\nThe use of OR in WW II\nBut, it gets more complicated when scale become larger.\nFor example:\n\nTwo airplanes.\nFuel limitation → refuel required.\nTime constraints → missions have priority.\nAirplanes must return to base."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#history-of-or-4",
+    "href": "Slides/Week_1/index.html#history-of-or-4",
+    "title": "Operation Research",
+    "section": "History of OR",
+    "text": "History of OR\nThe use of OR in WW II\n\n\nCode for this Fig.\n\nflowchart LR\n    Base[\"📍 Base\"] --&gt; Plane1[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane1 --&gt; M1[\"📍 Mission 1\"]\n    M1 --&gt; M2[\"📍 Mission 2\"]\n    M2 --&gt; R[\"⛽ Refuel\"]\n    R --&gt; M3[\"📍 Mission 3\"]\n    M3 --&gt; Base\n\n    Base --&gt; Plane2[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane2 --&gt; M4[\"📍 Mission 4\"]\n    M4 --&gt; M5[\"📍 Mission 5\"]\n    M5 --&gt; R\n    R --&gt; M6[\"📍 Mission 6\"]\n    M6 --&gt; Base\n\n\n\n\n\n\nflowchart LR\n    Base[\"📍 Base\"] --&gt; Plane1[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane1 --&gt; M1[\"📍 Mission 1\"]\n    M1 --&gt; M2[\"📍 Mission 2\"]\n    M2 --&gt; R[\"⛽ Refuel\"]\n    R --&gt; M3[\"📍 Mission 3\"]\n    M3 --&gt; Base\n\n    Base --&gt; Plane2[\"&lt;span style='font-size: 2em'&gt;🛩️&lt;/span&gt;\"]\n    Plane2 --&gt; M4[\"📍 Mission 4\"]\n    M4 --&gt; M5[\"📍 Mission 5\"]\n    M5 --&gt; R\n    R --&gt; M6[\"📍 Mission 6\"]\n    M6 --&gt; Base"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#history-of-or-5",
+    "href": "Slides/Week_1/index.html#history-of-or-5",
+    "title": "Operation Research",
+    "section": "History of OR",
+    "text": "History of OR\nThe use of OR in WW II\nThe Birth of the Simplex Method\nObserving these problems, George Dantzig created a well-known method called the Simplex method, which:\n\nProvides a systematic procedure for solving linear programming problems.\nHelps optimize resource allocation under constraints.\nBecame a foundational tool in Operations Research and optimization."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#history-of-or-6",
+    "href": "Slides/Week_1/index.html#history-of-or-6",
+    "title": "Operation Research",
+    "section": "History of OR",
+    "text": "History of OR\nPost world war\n\nOR methods gained popularity in industry and government.\nFocus shifted from military applications to commercial and industrial problems.\nThe success of OR during the war demonstrated its practical value."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#history-of-or-7",
+    "href": "Slides/Week_1/index.html#history-of-or-7",
+    "title": "Operation Research",
+    "section": "History of OR",
+    "text": "History of OR\nUnited Airlines Case Study\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\nfrom scipy.interpolate import make_interp_spline\n\ntime_slots = ['0-6', '6-8', '8-10', '10-12', '12-14', '14-16', '16-18', '18-20', '20-22', '22-24']\npersonnel = [6, 10, 15, 20, 16, 24, 28, 20, 10, 10]\n\n\nx = np.arange(len(time_slots))\nx_smooth = np.linspace(x.min(), x.max(), 300)\n\n\nspl = make_interp_spline(x, personnel, k=3)\npersonnel_smooth = spl(x_smooth)\n\n\nplt.style.use('seaborn-v0_8-whitegrid')\nfig, ax = plt.subplots(figsize=(14, 7), facecolor='white')\n\n\nax.fill_between(x_smooth, personnel_smooth, alpha=0.2, color='#3b82f6')\n\n\nax.plot(x_smooth, personnel_smooth, color='#2563eb', linewidth=3.5, label='Demand Pattern', zorder=2)\n\n# Plot actual data points\nax.scatter(x, personnel, color='#1e40af', s=120, zorder=3, edgecolors='white', linewidth=2)\n\n# Add value labels on points\nfor i, (xi, yi) in enumerate(zip(x, personnel)):\n    ax.annotate(f'{yi}', xy=(xi, yi), xytext=(0, 12), \n                textcoords='offset points', ha='center', \n                fontsize=11, fontweight='bold', color='#1e40af',\n                bbox=dict(boxstyle='round,pad=0.4', facecolor='white', edgecolor='#3b82f6', linewidth=1.5))\n\n\nax.set_xticks(x)\nax.set_xticklabels(time_slots, fontsize=11)\nax.set_xlabel('Time Period (Hours)', fontsize=13, fontweight='bold', color='#1f2937', labelpad=10)\nax.set_ylabel('Personnel Required', fontsize=13, fontweight='bold', color='#1f2937', labelpad=10)\nax.set_title('United Airlines Airport Staffing.', \n             fontsize=16, fontweight='bold', color='#111827', pad=20)\n\n# Customize grid\nax.grid(True, alpha=0.25, linestyle='-', linewidth=0.8, color='#94a3b8')\nax.set_axisbelow(True)\n\n# Set y-axis limits with padding\nax.set_ylim(0, max(personnel) + 5)\n\n# Remove top and right spines\nax.spines['top'].set_visible(False)\nax.spines['right'].set_visible(False)\nax.spines['left'].set_color('#cbd5e1')\nax.spines['bottom'].set_color('#cbd5e1')\n\n# Add legend\nax.legend(loc='upper left', fontsize=11, frameon=True, shadow=True, fancybox=True)\n\n# Tight layout\nplt.tight_layout()\nplt.show()\n\n\n\n\nFigure 1"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#history-of-or-8",
+    "href": "Slides/Week_1/index.html#history-of-or-8",
+    "title": "Operation Research",
+    "section": "History of OR",
+    "text": "History of OR\nUnited Airlines Case Study\nThe Optimization Problem:\nHow many people will you hire?\n\nEach person works for eight hours continuously.\nThey may start their shifts at different time.\n\nBusiness Impact:\nLinear programming is used by United Airlines to reduce the number of flight delays by 50% and save more than $5 million per year in 1992."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#definition",
+    "href": "Slides/Week_1/index.html#definition",
+    "title": "Operation Research",
+    "section": "Definition",
+    "text": "Definition\n\nLinear Programming (LP) is a mathematical method for determining a way to achieve the best outcome (such as maximum profit or minimum cost) in a given mathematical model whose requirements are represented by linear relationships.\n— Winston, W. L. (2004). Operations Research: Applications and Algorithms, 4th Edition.\n\nExample\nScenario: A factory produces two products: A and B.\nEach product uses resources: labor and materials.\nEach product gives a profit: Product A gives $5/unit, Product B gives $3/unit.\nGoal: Decide how many units of A and B to produce to maximize total profit.\nConstraints: Limited labor hours and material availability."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#terminology",
+    "href": "Slides/Week_1/index.html#terminology",
+    "title": "Operation Research",
+    "section": "Terminology",
+    "text": "Terminology\nDecision Variables: The decision variable refers to any candidate (person, service, projects, jobs, tasks) competing with other decision variables for limited resources.\nObjective Function: The Linear Programming Problem must have a well defined objective function to optimize the results. For instance, minimization of cost or maximization of profits. It should be expressed as linear function of decision variables.\nConstraints: There would be limitations on resources which are to be allocated among various competing activities. These must be capable of being expressed as linear equalities or inequalities in terms of decision variables."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#terminology-1",
+    "href": "Slides/Week_1/index.html#terminology-1",
+    "title": "Operation Research",
+    "section": "Terminology",
+    "text": "Terminology\nAlternative Courses of Action: There must be the presence of alternative solutions for the purpose of choosing the best or optimum one.\nNon-Negativity Restrictions: All variables must assume non-negative values. If any of the variables is unrestricted in sign, a tool can be employed which will enforce the non-negativity without changing the original information of the problem.\nLinearity and Divisibility: All relationships (objective function and constraints) must exhibit linearity, i.e., the relationship among decision variables must be directly proportional. It is assumed that decision variables are continuous, i.e., fractional values of variables must be permissible in obtaining the optimum solution."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#standard-form-of-lp-models",
+    "href": "Slides/Week_1/index.html#standard-form-of-lp-models",
+    "title": "Operation Research",
+    "section": "Standard Form of LP Models",
+    "text": "Standard Form of LP Models\nObjective: Maximize\n\\[\nZ = c_1 x_1 + c_2 x_2 + \\dots + c_n x_n\n\\]\nConstraints:\n\\[\n\\begin{aligned}\na_{11} x_1 + \\dots + a_{1n} x_n &\\le b_1 \\\\\na_{21} x_1 + \\dots + a_{2n} x_n &\\le b_2 \\\\\n\\vdots \\\\\na_{m1} x_1 + \\dots + a_{mn} x_n &\\le b_m\n\\end{aligned}\n\\]\nNon-negativity:\n\\[\nx_1, x_2, \\dots, x_n \\ge 0\n\\]"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#formulation-of-lp-models",
+    "href": "Slides/Week_1/index.html#formulation-of-lp-models",
+    "title": "Operation Research",
+    "section": "Formulation of LP Models",
+    "text": "Formulation of LP Models\nSteps for Formulating LP problems\n\n\nIdentify the nature of the problem (maximization minimization problem).\n\n\n\n\nIdentify the number of variables to establish the objective function.\n\n\n\n\nFormulate the constraints.\n\n\n\n\nDevelop non-negativity constraints."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#standard-form-of-lp-models-1",
+    "href": "Slides/Week_1/index.html#standard-form-of-lp-models-1",
+    "title": "Operation Research",
+    "section": "Standard Form of LP Models",
+    "text": "Standard Form of LP Models\nExample 1\nPaint Blending\nA paint manufacturer produces two types of paints using two raw materials. One ton of Paint 1 requires 4 units of material A and 3 units of material B. One ton of Paint 2 requires 3 units of material A and 6 units of material B. The company has 24 units of A and 30 units of B available. The profit per ton of Paint 1 and Paint 2 is $5 and $4, respectively.\nQuestion: Formulate a Linear Programming model to maximize profit."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#standard-form-of-lp-models-2",
+    "href": "Slides/Week_1/index.html#standard-form-of-lp-models-2",
+    "title": "Operation Research",
+    "section": "Standard Form of LP Models",
+    "text": "Standard Form of LP Models\nExample 1\nStep 1: Decision Variables\n\n\\(x_1\\) = tons of Paint 1 to produce\n\\(x_2\\) = tons of Paint 2 to produce\n\nStep 2: Organize the Data\n\n\n\nResource\nPaint 1\nPaint 2\nAvailable\n\n\n\n\nMaterial A\n4\n3\n24\n\n\nMaterial B\n3\n6\n30\n\n\nProfit\n$5\n$4\nMaximize"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#standard-form-of-lp-models-3",
+    "href": "Slides/Week_1/index.html#standard-form-of-lp-models-3",
+    "title": "Operation Research",
+    "section": "Standard Form of LP Models",
+    "text": "Standard Form of LP Models\nExample 1\nStep 3: Objective Function\nMaximize total profit:\n\\[\\text{Maximize } Z = 5x_1 + 4x_2\\]\nwhere \\(Z\\) is the total profit in dollars.\nStep 4: Constraints\n\nMaterial A: \\(4x_1 + 3x_2 \\leq 24\\)\nMaterial B: \\(3x_1 + 6x_2 \\leq 30\\)\nNon-negativity: \\(x_1, x_2 \\geq 0\\)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#standard-form-of-lp-models-4",
+    "href": "Slides/Week_1/index.html#standard-form-of-lp-models-4",
+    "title": "Operation Research",
+    "section": "Standard Form of LP Models",
+    "text": "Standard Form of LP Models\nModel\nMaximize: \\(Z = 5x_1 + 4x_2\\)\nSubject to: \\[\\begin{align}\n4x_1 + 3x_2 &\\leq 24 \\quad \\text{(Material A)}\\\\\n3x_1 + 6x_2 &\\leq 30 \\quad \\text{(Material B)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\]"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#standard-form-of-lp-models-5",
+    "href": "Slides/Week_1/index.html#standard-form-of-lp-models-5",
+    "title": "Operation Research",
+    "section": "Standard Form of LP Models",
+    "text": "Standard Form of LP Models\nExample 2\nProduct Mix Problem\nA factory manufactures two products: Product A and Product B. Each product requires processing on two machines:\n\nProduct A: 2 hours on Machine 1, 1 hour on Machine 2, profit $30\nProduct B: 1 hour on Machine 1, 2 hours on Machine 2, profit $40\nAvailable: Machine 1 has 100 hours, Machine 2 has 80 hours\n\nQuestion: Formulate the LP model to maximize profit."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#standard-form-of-lp-models-6",
+    "href": "Slides/Week_1/index.html#standard-form-of-lp-models-6",
+    "title": "Operation Research",
+    "section": "Standard Form of LP Models",
+    "text": "Standard Form of LP Models\nExample 2\nStep 1: Decision Variables\n\n\\(x_1\\) = units of Product A to manufacture\n\\(x_2\\) = units of Product B to manufacture\n\nStep 2: Organize the Data\n\n\n\nResource\nProduct A\nProduct B\nAvailable\n\n\n\n\nMachine 1\n2 hrs\n1 hr\n100 hrs\n\n\nMachine 2\n1 hr\n2 hrs\n80 hrs\n\n\nProfit\n$30\n$40\nMaximize"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#standard-form-of-lp-models-7",
+    "href": "Slides/Week_1/index.html#standard-form-of-lp-models-7",
+    "title": "Operation Research",
+    "section": "Standard Form of LP Models",
+    "text": "Standard Form of LP Models\nExample 2\nModel\nMaximize: \\(Z = 30x_1 + 40x_2\\)\nSubject to: \\(\\begin{align}\n2x_1 + x_2 &\\leq 100 \\quad \\text{(Machine 1)}\\\\\nx_1 + 2x_2 &\\leq 80 \\quad \\text{(Machine 2)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method",
+    "href": "Slides/Week_1/index.html#graphical-method",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nLinear programming problems involving two variables can be easily represented and solved using the graphical method. Although such two-variable problems are rarely encountered in real-life applications, understanding this approach provides a useful foundation.\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, ax = plt.subplots(figsize=(15, 10))\n\nax.set_xlim(-20, 55)\nax.set_ylim(-20, 55)\n\nax.arrow(-20, 0, 73, 0, head_width=2, head_length=2, \n         fc='#1F5BFF', ec='#1F5BFF', linewidth=2)\n\nax.arrow(0, -20, 0, 73, head_width=2, head_length=2, \n         fc='#1F5BFF', ec='#1F5BFF', linewidth=2)\n\nax.set_xticks(np.arange(-10, 51, 10))\nax.set_yticks(np.arange(-10, 51, 10))\nax.tick_params(axis='both', which='major', labelsize=35)\n\nax.grid(True, alpha=0.4, linestyle='--', linewidth=1)\n\nax.text(53, -4, 'x', fontsize=40, fontweight='bold')\nax.text(-4, 53, 'y', fontsize=40, fontweight='bold')\n\nfor spine in ax.spines.values():\n    spine.set_visible(False)\n\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-1",
+    "href": "Slides/Week_1/index.html#graphical-method-1",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nSteps\n\n\nConvert each inequality constraint into an equation.\n\n\n\n\nPlot all the equations on a graph.\n\n\n\n\nIdentify the feasible region — every point on each line satisfies its corresponding equation.\n\n\n\n\nFor “≤” constraints, shade below the line; for “≥”, shade above.\nThe overlapping area that satisfies all constraints is the feasible region.\n\n\n\n\nDetermine the coordinates of all corner (vertex) points of the feasible region.\n\n\n\n\nSubstitute these coordinates into the objective function to calculate the value of ( Z ) for each point."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-2",
+    "href": "Slides/Week_1/index.html#graphical-method-2",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nExample\nTaking problem from Example 1:\nMaximize: \\(Z = 5x_1 + 4x_2\\)\nSubject to: \\[\\begin{align}\n4x_1 + 3x_2 &\\leq 24 \\quad \\text{(Material A)}\\\\\n3x_1 + 6x_2 &\\leq 30 \\quad \\text{(Material B)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\]"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-3",
+    "href": "Slides/Week_1/index.html#graphical-method-3",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 2: Find Intercepts\nFor Material A: \\(4x_1 + 3x_2 = 24\\)\n\nWhen \\(x_1 = 0\\): \\(3x_2 = 24\\) → \\(x_2 = 8\\)\nWhen \\(x_2 = 0\\): \\(4x_1 = 24\\) → \\(x_1 = 6\\)\n\nFor Material B: \\(3x_1 + 6x_2 = 30\\)\n\nWhen \\(x_1 = 0\\): \\(6x_2 = 30\\) → \\(x_2 = 5\\)\nWhen \\(x_2 = 0\\): \\(3x_1 = 30\\) → \\(x_1 = 10\\)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-4",
+    "href": "Slides/Week_1/index.html#graphical-method-4",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 3: Plot the Constraints\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 12, 400)\nx2_A = (24 - 4*x1) / 3\nx2_B = (30 - 3*x1) / 6\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A: $4x_1 + 3x_2 = 24$')\nplt.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B: $3x_1 + 6x_2 = 30$')\n\nplt.scatter([6, 0, 10, 0], [0, 8, 0, 5], color='black', s=80, zorder=5)\nplt.text(6, -0.5, '(6, 0)', ha='center', fontsize=14)\nplt.text(-0.6, 8, '(0, 8)', fontsize=14)\nplt.text(10, -0.5, '(10, 0)', ha='center', fontsize=14)\nplt.text(-0.6, 5, '(0, 5)', fontsize=14)\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')\nplt.grid(alpha=0.25)\nplt.legend(fontsize=14, frameon=False)\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-1, 12)\nplt.ylim(-1, 10)\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-5",
+    "href": "Slides/Week_1/index.html#graphical-method-5",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 4: Identify Feasible Region\nShade the region that satisfies all constraints:\n\nBelow Material A line (4x₁ + 3x₂ ≤ 24)\nBelow Material B line (3x₁ + 6x₂ ≤ 30)\nFirst quadrant (x₁, x₂ ≥ 0)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-6",
+    "href": "Slides/Week_1/index.html#graphical-method-6",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 5: Find Corner Points\nThe corner points of the feasible region are:\n\nPoint A: (0, 0) — Origin\nPoint B: (0, 5) — Intersection with y-axis\nPoint C: (?, ?) — Intersection of two constraints\nPoint D: (6, 0) — Intersection with x-axis\n\nFind Point C: Solve the system: \\[\\begin{align}\n4x_1 + 3x_2 &= 24 \\\\\n3x_1 + 6x_2 &= 30\n\\end{align}\\]"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-7",
+    "href": "Slides/Week_1/index.html#graphical-method-7",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nFinding Point C\nMethod: Elimination\nMultiply first equation by 2: \\[8x_1 + 6x_2 = 48 \\quad \\text{...(1)}\\]\nKeep second equation: \\[3x_1 + 6x_2 = 30 \\quad \\text{...(2)}\\]\nSubtract (2) from (1): \\[5x_1 = 18 \\implies x_1 = 3.6\\]\nSubstitute back: \\(x_2 = 3.2\\)\nPoint C = (3.6, 3.2)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-8",
+    "href": "Slides/Week_1/index.html#graphical-method-8",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nCorner Points Visualization\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, ax = plt.subplots(figsize=(10, 8))\n\nx1 = np.linspace(0, 12, 400)\nx2_A = (24 - 4*x1) / 3\nx2_B = (30 - 3*x1) / 6\n\nax.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A')\nax.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B')\n\nx1_fill = np.linspace(0, 6, 400)\nx2_fill = np.minimum((24 - 4*x1_fill) / 3, (30 - 3*x1_fill) / 6)\nax.fill_between(x1_fill, 0, x2_fill, color='#10b981', alpha=0.4, label='Feasible Region')\n\ncorners = [(0, 0), (0, 5), (3.6, 3.2), (6, 0)]\nlabels = ['A (0, 0)', 'B (0, 5)', 'C (3.6, 3.2)', 'D (6, 0)']\ncolors = ['#0ea5e9', '#f59e0b', '#22c55e', '#6366f1']\n\nfor (x, y), label, c in zip(corners, labels, colors):\n    ax.scatter(x, y, s=150, color=c, edgecolor='black', linewidth=1.2, zorder=5)\n    ax.text(x + 0.25, y + 0.25, label, fontsize=14, weight='bold', color='#1e293b')\n\nax.set_xlabel('$x_1$', fontsize=18, weight='bold')\nax.set_ylabel('$x_2$', fontsize=18, weight='bold')\nax.set_xlim(-1, 12)\nax.set_ylim(-1, 10)\nax.set_title('Corner Points of Feasible Region', fontsize=22, weight='bold', color='#1e293b')\nax.legend(fontsize=14, loc='upper right', frameon=False)\nax.grid(alpha=0.25, linestyle='--')\nax.axhline(0, color='black', linewidth=1.2)\nax.axvline(0, color='black', linewidth=1.2)\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-9",
+    "href": "Slides/Week_1/index.html#graphical-method-9",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 6: Evaluate Objective Function\nSubstitute each corner point into \\(Z = 5x_1 + 4x_2\\):\n\n\n\nPoint\n\\((x_1, x_2)\\)\n\\(Z = 5x_1 + 4x_2\\)\nValue\n\n\n\n\nA\n(0, 0)\n\\(5(0) + 4(0)\\)\n0\n\n\nB\n(0, 5)\n\\(5(0) + 4(5)\\)\n20\n\n\nC\n(3.6, 3.2)\n\\(5(3.6) + 4(3.2)\\)\n30.8\n\n\nD\n(6, 0)\n\\(5(6) + 4(0)\\)\n30\n\n\n\nMaximum value: \\(Z = 30.8\\) at point C (3.6, 3.2)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-10",
+    "href": "Slides/Week_1/index.html#graphical-method-10",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nOptimal Solution\n\n\n\n\n\n\nFinal Answer\n\n\nOptimal Production Plan: - Produce \\(x_1^* = 3.6\\) tons of Paint 1 - Produce \\(x_2^* = 3.2\\) tons of Paint 2\nMaximum Profit: \\(Z^* = \\$30.80\\)\nResource Utilization: - Material A: \\(4(3.6) + 3(3.2) = 24\\) units ✓ (fully used) - Material B: \\(3(3.6) + 6(3.2) = 30\\) units ✓ (fully used)\nBoth resources are binding constraints (fully utilized)."
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-11",
+    "href": "Slides/Week_1/index.html#graphical-method-11",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nExample 2\nTaking problem from Example 2:\nMaximize: \\(Z = 30x_1 + 40x_2\\)\nSubject to: \\[\\begin{align}\n2x_1 + x_2 &\\leq 100 \\quad \\text{(Machine 1)}\\\\\nx_1 + 2x_2 &\\leq 80 \\quad \\text{(Machine 2)}\\\\\nx_1, x_2 &\\geq 0 \\quad \\text{(Non-negativity)}\n\\end{align}\\]"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-12",
+    "href": "Slides/Week_1/index.html#graphical-method-12",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 2: Find Intercepts\nFor Machine 1: \\(2x_1 + x_2 = 100\\)\n\nWhen \\(x_1 = 0\\): \\(x_2 = 100\\)\nWhen \\(x_2 = 0\\): \\(2x_1 = 100\\) → \\(x_1 = 50\\)\n\nFor Machine 2: \\(x_1 + 2x_2 = 80\\)\n\nWhen \\(x_1 = 0\\): \\(2x_2 = 80\\) → \\(x_2 = 40\\)\nWhen \\(x_2 = 0\\): \\(x_1 = 80\\)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-13",
+    "href": "Slides/Week_1/index.html#graphical-method-13",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 3: Plot the Constraints\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nx1 = np.linspace(0, 90, 400)\nx2_M1 = 100 - 2*x1\nx2_M2 = (80 - x1) / 2\n\nplt.figure(figsize=(10, 8))\nplt.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1: $2x_1 + x_2 = 100$')\nplt.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2: $x_1 + 2x_2 = 80$')\n\nplt.scatter([50, 0, 80, 0], [0, 100, 0, 40], color='black', s=80, zorder=5)\nplt.text(50, -4, '(50, 0)', ha='center', fontsize=14)\nplt.text(-4, 100, '(0, 100)', fontsize=14)\nplt.text(80, -4, '(80, 0)', ha='center', fontsize=14)\nplt.text(-4, 40, '(0, 40)', fontsize=14)\n\nplt.xlabel('$x_1$', fontsize=18, weight='bold')\nplt.ylabel('$x_2$', fontsize=18, weight='bold')\nplt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')\nplt.grid(alpha=0.25)\nplt.legend(fontsize=14, frameon=False)\nplt.axhline(0, color='black', linewidth=1.2)\nplt.axvline(0, color='black', linewidth=1.2)\nplt.xlim(-5, 90)\nplt.ylim(-5, 110)\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-14",
+    "href": "Slides/Week_1/index.html#graphical-method-14",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 4: Identify Feasible Region\nShade the region that satisfies all constraints:\n\nBelow Machine 1 line (2x₁ + x₂ ≤ 100)\nBelow Machine 2 line (x₁ + 2x₂ ≤ 80)\nFirst quadrant (x₁, x₂ ≥ 0)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-15",
+    "href": "Slides/Week_1/index.html#graphical-method-15",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 5: Find Corner Points\nThe corner points of the feasible region are:\n\nPoint A: (0, 0) — Origin\nPoint B: (0, 40) — Intersection with y-axis\nPoint C: (?, ?) — Intersection of two constraints\nPoint D: (50, 0) — Intersection with x-axis\n\nFind Point C: Solve the system: \\[\\begin{align}\n2x_1 + x_2 &= 100 \\\\\nx_1 + 2x_2 &= 80\n\\end{align}\\]"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-16",
+    "href": "Slides/Week_1/index.html#graphical-method-16",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nFinding Point C\nMethod: Elimination\nMultiply second equation by 2: \\[2x_1 + 4x_2 = 160 \\quad \\text{...(1)}\\]\nKeep first equation: \\[2x_1 + x_2 = 100 \\quad \\text{...(2)}\\]\nSubtract (2) from (1): \\[3x_2 = 60 \\implies x_2 = 20\\]\nSubstitute back: \\(2x_1 + 20 = 100 \\implies x_1 = 40\\)\nPoint C = (40, 20)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-17",
+    "href": "Slides/Week_1/index.html#graphical-method-17",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nCorner Points Visualization\n\n\nCode for this Fig.\nimport matplotlib.pyplot as plt\nimport numpy as np\n\nfig, ax = plt.subplots(figsize=(10, 8))\n\nx1 = np.linspace(0, 90, 400)\nx2_M1 = 100 - 2*x1\nx2_M2 = (80 - x1) / 2\n\nax.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1')\nax.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2')\n\nx1_fill = np.linspace(0, 50, 400)\nx2_fill = np.minimum(100 - 2*x1_fill, (80 - x1_fill) / 2)\nax.fill_between(x1_fill, 0, x2_fill, color='#10b981', alpha=0.4, label='Feasible Region')\n\ncorners = [(0, 0), (0, 40), (40, 20), (50, 0)]\nlabels = ['A (0, 0)', 'B (0, 40)', 'C (40, 20)', 'D (50, 0)']\ncolors = ['#0ea5e9', '#f59e0b', '#22c55e', '#6366f1']\n\nfor (x, y), label, c in zip(corners, labels, colors):\n    ax.scatter(x, y, s=150, color=c, edgecolor='black', linewidth=1.2, zorder=5)\n    ax.text(x + 2, y + 2.5, label, fontsize=14, weight='bold', color='#1e293b')\n\nax.set_xlabel('$x_1$', fontsize=18, weight='bold')\nax.set_ylabel('$x_2$', fontsize=18, weight='bold')\nax.set_xlim(-5, 90)\nax.set_ylim(-5, 110)\nax.set_title('Corner Points of Feasible Region', fontsize=22, weight='bold', color='#1e293b')\nax.legend(fontsize=14, loc='upper right', frameon=False)\nax.grid(alpha=0.25, linestyle='--')\nax.axhline(0, color='black', linewidth=1.2)\nax.axvline(0, color='black', linewidth=1.2)\nplt.tight_layout()\nplt.show()"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-18",
+    "href": "Slides/Week_1/index.html#graphical-method-18",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nStep 6: Evaluate Objective Function\nSubstitute each corner point into \\(Z = 30x_1 + 40x_2\\):\n\n\n\nPoint\n\\((x_1, x_2)\\)\n\\(Z = 30x_1 + 40x_2\\)\nValue\n\n\n\n\nA\n(0, 0)\n\\(30(0) + 40(0)\\)\n0\n\n\nB\n(0, 40)\n\\(30(0) + 40(40)\\)\n1600\n\n\nC\n(40, 20)\n\\(30(40) + 40(20)\\)\n2000\n\n\nD\n(50, 0)\n\\(30(50) + 40(0)\\)\n1500\n\n\n\nMaximum value: \\(Z = 2000\\) at point C (40, 20)"
+  },
+  {
+    "objectID": "Slides/Week_1/index.html#graphical-method-19",
+    "href": "Slides/Week_1/index.html#graphical-method-19",
+    "title": "Operation Research",
+    "section": "Graphical Method",
+    "text": "Graphical Method\nOptimal Solution\n\n\n\n\n\n\nFinal Answer\n\n\nOptimal Production Plan: - Produce \\(x_1^* = 40\\) units of Product A - Produce \\(x_2^* = 20\\) units of Product B\nMaximum Profit: \\(Z^* = \\$2000\\)\nResource Utilization: - Machine 1: \\(2(40) + 20 = 100\\) hours ✓ (fully used) - Machine 2: \\(40 + 2(20) = 80\\) hours ✓ (fully used)\nBoth machines are binding constraints (fully utilized)."
+  },
+  {
+    "objectID": "index.html#introduction",
+    "href": "index.html#introduction",
+    "title": "Operations Research",
+    "section": "📘 Introduction",
+    "text": "📘 Introduction\nIn this course, we will learn how to solve complex decision-making problems using mathematical optimization techniques. We will explore linear programming, transportation and assignment models, queuing systems, scheduling algorithms, and game theory to make better decisions in real-world scenarios."
+  },
+  {
+    "objectID": "index.html#did-you-know",
+    "href": "index.html#did-you-know",
+    "title": "Operations Research",
+    "section": "🧩 Did You Know?",
+    "text": "🧩 Did You Know?\nThe name “Operations Research” comes from military operations—but today, it quietly helps decide everything from Uber routes to Netflix recommendations. You’re learning tools that shape the world, one optimal solution at a time! ⚡"
+  },
+  {
+    "objectID": "index.html#questions-or-concerns",
+    "href": "index.html#questions-or-concerns",
+    "title": "Operations Research",
+    "section": "📬 Questions or Concerns?",
+    "text": "📬 Questions or Concerns?\nFeel free to reach out anytime!"
+  },
+  {
+    "objectID": "index.html#explore-operations-research",
+    "href": "index.html#explore-operations-research",
+    "title": "Operations Research",
+    "section": "🎯 Explore Operations Research",
+    "text": "🎯 Explore Operations Research\n\n\n\n🗺️ Course Journey Map\n\n\n\n\n\ngraph TB\n    Start([Operations Research]) --&gt; CH1[Chapter 1: Linear Programming&lt;br/&gt;& Simplex Method&lt;br/&gt;4 hours]\n    Start --&gt; CH2[Chapter 2: Transportation&lt;br/&gt;& Assignment Problems&lt;br/&gt;8 hours]\n    Start --&gt; CH3[Chapter 3: Sequencing&lt;br/&gt;& Queuing Models&lt;br/&gt;8 hours]\n    Start --&gt; CH4[Chapter 4: Replacement&lt;br/&gt;& Staffing Problems&lt;br/&gt;6 hours]\n    Start --&gt; CH5[Chapter 5: Game Theory&lt;br/&gt;6 hours]\n    \n    CH1 --&gt; LP1[Introduction to OR]\n    CH1 --&gt; LP2[LP Review & Graphical Solution]\n    CH1 --&gt; LP3[Simplex Method]\n    CH1 --&gt; LP4[Sensitivity Analysis]\n    \n    CH2 --&gt; T1[Transportation Problems]\n    CH2 --&gt; T2[Assignment Problems]\n    T1 --&gt; T1a[Northwest Corner Rule]\n    T1 --&gt; T1b[MODI/Stepping Stone]\n    T1 --&gt; T1c[Special Cases]\n    T2 --&gt; T2a[Hungarian Method]\n    T2 --&gt; T2b[Scheduling Applications]\n    \n    CH3 --&gt; S1[Sequencing Models]\n    CH3 --&gt; Q1[Queuing Models]\n    S1 --&gt; S1a[Single Machine: FCFS, SPT, EDD]\n    S1 --&gt; S1b[N Jobs on M Machines]\n    Q1 --&gt; Q1a[M/M/1 Queue]\n    Q1 --&gt; Q1b[M/M/c Queue]\n    \n    CH4 --&gt; R1[Replacement Theory]\n    CH4 --&gt; ST1[Staffing Problems]\n    R1 --&gt; R1a[Gradual vs Sudden Failure]\n    R1 --&gt; R1b[Present Value Criteria]\n    ST1 --&gt; ST1a[Staff Rotation Scheduling]\n    ST1 --&gt; ST1b[Optimal Staffing Levels]\n    \n    CH5 --&gt; G1[Game Theory Concepts]\n    CH5 --&gt; G2[Solution Methods]\n    CH5 --&gt; G3[Applications]\n    G2 --&gt; G2a[Pure Strategies & Dominance]\n    G2 --&gt; G2b[Mixed Strategies & Nash Equilibrium]\n    \n    style Start fill:#e5ffe5,stroke:#333,stroke-width:3px\n    style CH1 fill:#cce5ff,stroke:#333,stroke-width:2px\n    style CH2 fill:#ffe5cc,stroke:#333,stroke-width:2px\n    style CH3 fill:#fff2cc,stroke:#333,stroke-width:2px\n    style CH4 fill:#ffccf2,stroke:#333,stroke-width:2px\n    style CH5 fill:#e5ccff,stroke:#333,stroke-width:2px"
+  },
+  {
+    "objectID": "index.html#course-journey-map",
+    "href": "index.html#course-journey-map",
+    "title": "Operations Research",
+    "section": "🗺️ Course Journey Map",
+    "text": "🗺️ Course Journey Map\n\n\n\n\n\ngraph TB\n    Start([Operations Research]) --&gt; CH1[Chapter 1: Linear Programming&lt;br/&gt;& Simplex Method&lt;br/&gt;4 hours]\n    Start --&gt; CH2[Chapter 2: Transportation&lt;br/&gt;& Assignment Problems&lt;br/&gt;8 hours]\n    Start --&gt; CH3[Chapter 3: Sequencing&lt;br/&gt;& Queuing Models&lt;br/&gt;8 hours]\n    Start --&gt; CH4[Chapter 4: Replacement&lt;br/&gt;& Staffing Problems&lt;br/&gt;6 hours]\n    Start --&gt; CH5[Chapter 5: Game Theory&lt;br/&gt;6 hours]\n    \n    CH1 --&gt; LP1[Introduction to OR]\n    CH1 --&gt; LP2[LP Review & Graphical Solution]\n    CH1 --&gt; LP3[Simplex Method]\n    CH1 --&gt; LP4[Sensitivity Analysis]\n    \n    CH2 --&gt; T1[Transportation Problems]\n    CH2 --&gt; T2[Assignment Problems]\n    T1 --&gt; T1a[Northwest Corner Rule]\n    T1 --&gt; T1b[MODI/Stepping Stone]\n    T1 --&gt; T1c[Special Cases]\n    T2 --&gt; T2a[Hungarian Method]\n    T2 --&gt; T2b[Scheduling Applications]\n    \n    CH3 --&gt; S1[Sequencing Models]\n    CH3 --&gt; Q1[Queuing Models]\n    S1 --&gt; S1a[Single Machine: FCFS, SPT, EDD]\n    S1 --&gt; S1b[N Jobs on M Machines]\n    Q1 --&gt; Q1a[M/M/1 Queue]\n    Q1 --&gt; Q1b[M/M/c Queue]\n    \n    CH4 --&gt; R1[Replacement Theory]\n    CH4 --&gt; ST1[Staffing Problems]\n    R1 --&gt; R1a[Gradual vs Sudden Failure]\n    R1 --&gt; R1b[Present Value Criteria]\n    ST1 --&gt; ST1a[Staff Rotation Scheduling]\n    ST1 --&gt; ST1b[Optimal Staffing Levels]\n    \n    CH5 --&gt; G1[Game Theory Concepts]\n    CH5 --&gt; G2[Solution Methods]\n    CH5 --&gt; G3[Applications]\n    G2 --&gt; G2a[Pure Strategies & Dominance]\n    G2 --&gt; G2b[Mixed Strategies & Nash Equilibrium]\n    \n    style Start fill:#e5ffe5,stroke:#333,stroke-width:3px\n    style CH1 fill:#cce5ff,stroke:#333,stroke-width:2px\n    style CH2 fill:#ffe5cc,stroke:#333,stroke-width:2px\n    style CH3 fill:#fff2cc,stroke:#333,stroke-width:2px\n    style CH4 fill:#ffccf2,stroke:#333,stroke-width:2px\n    style CH5 fill:#e5ccff,stroke:#333,stroke-width:2px"
+  },
+  {
+    "objectID": "index.html#computer-tools",
+    "href": "index.html#computer-tools",
+    "title": "Operations Research",
+    "section": "💻 Computer Tools",
+    "text": "💻 Computer Tools\nWe will use Python with libraries such as PuLP, SciPy, and NumPy for solving optimization problems throughout this course.\nGetting Started:\n\nInstall Jupyter Notebook\nAccess Google Colab (No installation needed!)"
+  },
+  {
+    "objectID": "index.html#computer-tools-1",
+    "href": "index.html#computer-tools-1",
+    "title": "Operations Research",
+    "section": "💻 Computer Tools",
+    "text": "💻 Computer Tools\n\n\n&lt;a href=\"https://jupyter.org/\" target=\"_blank\"&gt;\n  &lt;img src=\"https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg\" alt=\"Jupyter\" style=\"height: 80px; margin-bottom: 10px;\"&gt;\n&lt;/a&gt;\n&lt;p style=\"margin: 0; font-weight: 500;\"&gt;Jupyter Notebook&lt;/p&gt;\n\n\n&lt;a href=\"https://colab.research.google.com/\" target=\"_blank\"&gt;\n  &lt;img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d0/Google_Colaboratory_SVG_Logo.svg\" alt=\"Google Colab\" style=\"height: 80px; margin-bottom: 10px;\"&gt;\n&lt;/a&gt;\n&lt;p style=\"margin: 0; font-weight: 500;\"&gt;Google Colab&lt;/p&gt;\n\n\nWe will use Python with libraries such as PuLP, SciPy, and NumPy for solving optimization problems throughout this course.\nGetting Started:\n\nInstall Jupyter Notebook\nAccess Google Colab (No installation needed!)"
+  }
+]

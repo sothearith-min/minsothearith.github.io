@@ -1,0 +1,1278 @@
+---
+title: "Operation Research"
+
+institute: |
+  <div style="font-size: 1.4em; font-weight: bold; margin-bottom: 20px;">
+    Institute of Technology of Cambodia
+  </div>
+  <div style="margin-top: 10px; margin-bottom: 20px; text-align: center;">
+    <img src="image/itc-logo.png" alt="ITC Logo" style="height:120px; margin-right:10px;">
+    <img src="image/AMS.jpg" alt="AMS Logo" style="height:140px;">
+  </div>
+  <div style="font-size: 1.2em; font-weight: bold; margin-top: 20px;">
+    Lecturer: Sothearith MIN
+  </div>
+
+author: " "
+format:
+  revealjs:
+    theme: [default, custom.scss]
+    transition: slide
+    background-transition: fade
+    slide-number: true
+    chalkboard: true
+    footer: "Operation Research | Institute of Technology of Cambodia"
+
+---
+
+
+
+## Course Overview
+
+```{python}
+#| fig-width: 8
+#| fig-height: 3
+#| echo: true
+#| code-fold: true
+#| code-summary: "Code for this Fig."
+import matplotlib.pyplot as plt
+
+components = ['Attendance', 'Assignment', 'Class Activities', 'Mid-term', 'Final']
+percentages = [10, 10, 10, 30, 40]
+colors = ['#80ffdb', '#56cfe1', '#6930c3', '#7400b8', '#001233']  
+
+fig, ax = plt.subplots(figsize=(8, 3))
+
+for i, (comp, pct, color) in enumerate(zip(components, percentages, colors)):
+    ax.scatter(i, 0, s=pct*40, color=color, edgecolor='white', linewidth=1.5)
+    ax.text(i, -0.15, comp, ha='center', va='center', fontsize=12, fontname='Trebuchet MS')
+    ax.text(i, 0.2, f'{pct}%', ha='center', va='center', fontsize=14, fontweight='bold', fontname='Trebuchet MS')
+
+ax.set_xlim(-0.5, len(components)-0.5)
+ax.set_ylim(-0.5, 0.5)
+ax.axis('off')
+ax.set_title('Assessment Distribution', fontsize=16, fontweight='bold', fontname='Trebuchet MS', pad=10)
+
+plt.tight_layout()
+plt.show()
+```
+
+
+
+### Programming Tools
+
+We will use **Python** in **Jupyter Notebook** or **Google Colab** to solve complex problems. 
+
+## Course Syllabus
+
+<object data="image/Course Syllabus Operation Research.pdf" 
+        type="application/pdf" 
+        width="100%" 
+        height="600px">
+    <p>Your browser does not support PDFs. 
+       <a href="image/Course Syllabus Operation Research.pdf">Download PDF</a>
+    </p>
+</object>
+
+
+## Share your expectations for this course
+
+<div style="text-align: center; font-family: 'Trebuchet MS', sans-serif;">
+
+<p style="font-size: 1.1em; margin-bottom: 15px;">
+👉 Please visit <a href="https://www.menti.com" target="_blank"><b>menti.com</b></a> and enter the code:
+</p>
+
+<p style="font-size: 1.6em; font-weight: bold; color: #7400b8; background-color: #f3f0ff; display: inline-block; padding: 8px 12px; border-radius: 8px; margin: 12px 0;">
+5471&nbsp;7573
+</p>
+
+</div>
+
+<iframe src="https://www.mentimeter.com/app/presentation/al7fieuxa7qn6k4axt1fdnj74d8uk6wt/present?question=5nkbkugzhdte"
+        width="100%" height="400px"
+        style="border:none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+</iframe>
+
+# Introduction to Operation Research (OR){.white-background}
+
+
+## So, what is OR?
+
+> "**Operation Research** *is the application of scientific methods to the study of problems arising in the management of large systems of men, machines, materials, and money.*"  
+> — **George B. Dantzig**, *the father of Linear Programming(LP)*
+
+<div style="text-align:center; margin-top:10px;">
+  ![](image/Dantzig_vertical.jpeg){width=250px style="border-radius:10px;"}
+</div>
+
+## History of OR
+### George B. Dantzig – Father of LP & OR
+
+**George B. Dantzig (1914–2005)** developed linear programming methods that became fundamental to Operations Research, helping optimize resource allocation in military and civilian applications.
+
+In *World War II*, **George B. Dantzig** joined the US Air Force’s Operations Research team. He applied mathematical methods to solve practical problems, helping the Air Force plan flight schedules, optimize aircraft deployment, and improve mission efficiency.
+
+---
+
+
+## History of OR
+### The use of OR in WW II
+
+During World War II, the US Air Force faced a problem:
+
+* They had **limited aircraft and resources**.
+
+* They needed to **schedule** reconnaissance, bombing, and transport missions efficiently.
+
+* Mistakes or inefficiencies could **waste** fuel, **delay** missions, or **reduce** coverage.
+
+
+---
+
+## History of OR
+### The use of OR in WW II
+
+
+That would not be a problem if the the scale is small.
+
+<details>
+<summary>Show mermaid code</summary>
+```default
+flowchart LR
+    Base["📍 Base"] ---|🛩️| M1["📍 Mission 1"]
+    M1 ---|🛩️| M2["📍 Mission 2"]
+    M2 ---|🛩️| M3["📍 Mission 3"]
+    M3 ---|🛩️| Base
+```
+
+</details>
+```{mermaid}
+%%| echo: false
+
+flowchart LR
+    Base["📍 Base"] ---|🛩️| M1["📍 Mission 1"]
+    M1 ---|🛩️| M2["📍 Mission 2"]
+    M2 ---|🛩️| M3["📍 Mission 3"]
+    M3 ---|🛩️| Base
+```
+
+---
+
+## History of OR
+### The use of OR in WW II
+
+But, it gets more complicated when scale become larger. 
+
+**For example:**
+
+* Two airplanes.
+
+* Fuel limitation → refuel required.
+
+* Time constraints → missions have priority.
+
+* Airplanes must return to base.
+
+---
+
+## History of OR
+### The use of OR in WW II
+
+<details>
+<summary>Code for this Fig.</summary>
+```default
+flowchart LR
+    Base["📍 Base"] --> Plane1["<span style='font-size: 2em'>🛩️</span>"]
+    Plane1 --> M1["📍 Mission 1"]
+    M1 --> M2["📍 Mission 2"]
+    M2 --> R["⛽ Refuel"]
+    R --> M3["📍 Mission 3"]
+    M3 --> Base
+
+    Base --> Plane2["<span style='font-size: 2em'>🛩️</span>"]
+    Plane2 --> M4["📍 Mission 4"]
+    M4 --> M5["📍 Mission 5"]
+    M5 --> R
+    R --> M6["📍 Mission 6"]
+    M6 --> Base
+```
+
+</details>
+```{mermaid}
+%%| echo: false
+
+flowchart LR
+    Base["📍 Base"] --> Plane1["<span style='font-size: 2em'>🛩️</span>"]
+    Plane1 --> M1["📍 Mission 1"]
+    M1 --> M2["📍 Mission 2"]
+    M2 --> R["⛽ Refuel"]
+    R --> M3["📍 Mission 3"]
+    M3 --> Base
+
+    Base --> Plane2["<span style='font-size: 2em'>🛩️</span>"]
+    Plane2 --> M4["📍 Mission 4"]
+    M4 --> M5["📍 Mission 5"]
+    M5 --> R
+    R --> M6["📍 Mission 6"]
+    M6 --> Base
+```
+
+## History of OR
+### The use of OR in WW II
+#### The Birth of the *Simplex* Method
+
+Observing these problems, **George Dantzig** created a well-known method called the **Simplex** method, which:
+
+* Provides a systematic procedure for solving linear programming problems.
+* Helps optimize resource allocation under constraints.
+* Became a foundational tool in Operations Research and optimization.
+
+---
+
+## History of OR 
+### Post world war 
+
+* OR methods gained popularity in industry and government.
+* Focus shifted from military applications to **commercial and industrial problems**.
+* The success of OR during the war demonstrated its **practical value**.
+
+---
+
+## History of OR 
+### United Airlines Case Study
+
+
+```{python}
+#| label: fig-united-staffing
+#| echo: true
+#| code-fold: true
+#| code-summary: "Code for this Fig."
+
+
+import matplotlib.pyplot as plt
+import numpy as np
+from scipy.interpolate import make_interp_spline
+
+time_slots = ['0-6', '6-8', '8-10', '10-12', '12-14', '14-16', '16-18', '18-20', '20-22', '22-24']
+personnel = [6, 10, 15, 20, 16, 24, 28, 20, 10, 10]
+
+
+x = np.arange(len(time_slots))
+x_smooth = np.linspace(x.min(), x.max(), 300)
+
+
+spl = make_interp_spline(x, personnel, k=3)
+personnel_smooth = spl(x_smooth)
+
+
+plt.style.use('seaborn-v0_8-whitegrid')
+fig, ax = plt.subplots(figsize=(14, 7), facecolor='white')
+
+
+ax.fill_between(x_smooth, personnel_smooth, alpha=0.2, color='#3b82f6')
+
+
+ax.plot(x_smooth, personnel_smooth, color='#2563eb', linewidth=3.5, label='Demand Pattern', zorder=2)
+
+# Plot actual data points
+ax.scatter(x, personnel, color='#1e40af', s=120, zorder=3, edgecolors='white', linewidth=2)
+
+# Add value labels on points
+for i, (xi, yi) in enumerate(zip(x, personnel)):
+    ax.annotate(f'{yi}', xy=(xi, yi), xytext=(0, 12), 
+                textcoords='offset points', ha='center', 
+                fontsize=11, fontweight='bold', color='#1e40af',
+                bbox=dict(boxstyle='round,pad=0.4', facecolor='white', edgecolor='#3b82f6', linewidth=1.5))
+
+
+ax.set_xticks(x)
+ax.set_xticklabels(time_slots, fontsize=11)
+ax.set_xlabel('Time Period (Hours)', fontsize=13, fontweight='bold', color='#1f2937', labelpad=10)
+ax.set_ylabel('Personnel Required', fontsize=13, fontweight='bold', color='#1f2937', labelpad=10)
+ax.set_title('United Airlines Airport Staffing.', 
+             fontsize=16, fontweight='bold', color='#111827', pad=20)
+
+# Customize grid
+ax.grid(True, alpha=0.25, linestyle='-', linewidth=0.8, color='#94a3b8')
+ax.set_axisbelow(True)
+
+# Set y-axis limits with padding
+ax.set_ylim(0, max(personnel) + 5)
+
+# Remove top and right spines
+ax.spines['top'].set_visible(False)
+ax.spines['right'].set_visible(False)
+ax.spines['left'].set_color('#cbd5e1')
+ax.spines['bottom'].set_color('#cbd5e1')
+
+# Add legend
+ax.legend(loc='upper left', fontsize=11, frameon=True, shadow=True, fancybox=True)
+
+# Tight layout
+plt.tight_layout()
+plt.show()
+```
+
+----
+
+## History of OR 
+### United Airlines Case Study
+
+**The Optimization Problem:**
+
+How many people will you hire?
+
+- Each person works for eight hours **continuously**.
+- They may start their shifts at different time.
+
+**Business Impact:**
+
+Linear programming is used by United Airlines to reduce the number of flight delays by **50%** and save more than **$5** million per year in 1992.
+
+
+# The Review of Linear Programming 
+
+## Definition 
+
+> **Linear Programming (LP)** is a mathematical method for determining a way to achieve the **best outcome** (such as maximum profit or minimum cost) in a **given mathematical model** whose requirements are represented by **linear relationships**.  
+> — Winston, W. L. (2004). *Operations Research: Applications and Algorithms*, 4th Edition.
+
+**Example**
+
+**Scenario**: A factory produces two products: **A** and **B**.
+
+Each product uses **resources**: labor and materials.
+
+Each product gives a profit: Product **A gives $5/unit**, Product **B gives $3/unit**.
+
+**Goal**: Decide how many units of A and B to produce to maximize total profit.
+
+**Constraints**: Limited labor hours and material availability.
+
+## Terminology 
+
+**Decision Variables**: The decision variable refers to any candidate (person, service, projects, jobs, tasks) competing with other decision variables for limited resources.
+
+**Objective Function**: The Linear Programming Problem must have a well defined objective function to optimize the results. For instance, minimization of cost or maximization of profits. It should be expressed as linear function of decision variables.
+
+**Constraints**: There would be limitations on resources which are to be allocated among various competing activities. These must be capable of being expressed as linear equalities or inequalities in terms of decision variables.
+
+## Terminology
+
+**Alternative Courses of Action**: There must be the presence of alternative solutions for the purpose of choosing the best or optimum one.
+
+**Non-Negativity Restrictions:** All variables must assume non-negative values. If any of the variables is unrestricted in sign, a tool can be employed which will enforce the non-negativity without changing the original information of the problem.
+
+**Linearity and Divisibility:** All relationships (objective function and constraints) must exhibit linearity, i.e., the relationship among decision variables must be directly proportional. It is assumed that decision variables are continuous, i.e., fractional values of variables must be permissible in obtaining the optimum solution.
+
+## Standard Form of LP Models
+
+**Objective:** Maximize  
+$$
+Z = c_1 x_1 + c_2 x_2 + \dots + c_n x_n
+$$
+
+**Constraints:**  
+$$
+\begin{aligned}
+a_{11} x_1 + \dots + a_{1n} x_n &\le b_1 \\
+a_{21} x_1 + \dots + a_{2n} x_n &\le b_2 \\
+\vdots \\
+a_{m1} x_1 + \dots + a_{mn} x_n &\le b_m
+\end{aligned}
+$$
+
+**Non-negativity:**  
+$$
+x_1, x_2, \dots, x_n \ge 0
+$$
+
+## Formulation of LP Models 
+
+Steps for Formulating LP problems
+
+ . . .
+
+1. Identify the nature of the problem (maximization minimization problem).
+
+. . .
+
+
+2. Identify the number of variables to establish the objective function.
+
+. . .
+
+
+3. Formulate the constraints.
+
+. . .
+
+
+4. Develop non-negativity constraints.
+
+---
+
+## Standard Form of LP Models
+
+### Example 1
+
+#### Paint Blending
+
+A paint manufacturer produces two types of paints using two raw materials. One ton of **Paint 1** requires 4 units of material A and 3 units of material B. One ton of **Paint 2** requires 3 units of material A and 6 units of material B. The company has **24 units of A** and **30 units of B** available. The profit per ton of Paint 1 and Paint 2 is **\$5** and **\$4**, respectively.
+
+**Question:** Formulate a Linear Programming model to maximize profit.
+
+---
+
+## Standard Form of LP Models
+
+### Example 1
+
+**Step 1: Decision Variables**
+
+- $x_1$ = tons of Paint 1 to produce
+- $x_2$ = tons of Paint 2 to produce
+
+**Step 2: Organize the Data**
+
+| Resource    | Paint 1 | Paint 2 | Available |
+|-------------|:-------:|:-------:|:---------:|
+| Material A  | 4       | 3       | 24        |
+| Material B  | 3       | 6       | 30        |
+| **Profit**  | **\$5** | **\$4** | Maximize  |
+
+---
+
+## Standard Form of LP Models
+
+### Example 1
+
+**Step 3: Objective Function**
+
+Maximize total profit:
+
+$$\text{Maximize } Z = 5x_1 + 4x_2$$
+
+where $Z$ is the total profit in dollars.
+
+
+
+**Step 4: Constraints**
+
+- **Material A:** $4x_1 + 3x_2 \leq 24$
+- **Material B:** $3x_1 + 6x_2 \leq 30$
+- **Non-negativity:** $x_1, x_2 \geq 0$
+
+---
+
+## Standard Form of LP Models
+
+### Model 
+
+**Maximize:** $Z = 5x_1 + 4x_2$
+
+**Subject to:**
+$$\begin{align}
+4x_1 + 3x_2 &\leq 24 \quad \text{(Material A)}\\
+3x_1 + 6x_2 &\leq 30 \quad \text{(Material B)}\\
+x_1, x_2 &\geq 0 \quad \text{(Non-negativity)}
+\end{align}$$
+
+---
+
+## Standard Form of LP Models
+### Example 2
+
+#### Product Mix Problem
+
+A factory manufactures two products: **Product A** and **Product B**. Each product requires processing on two machines:
+
+- **Product A:** 2 hours on Machine 1, 1 hour on Machine 2, profit \$30
+- **Product B:** 1 hour on Machine 1, 2 hours on Machine 2, profit \$40
+- **Available:** Machine 1 has 100 hours, Machine 2 has 80 hours
+
+**Question:** Formulate the LP model to maximize profit.
+
+--- 
+
+## Standard Form of LP Models
+### Example 2
+
+
+**Step 1: Decision Variables**
+
+- $x_1$ = units of Product A to manufacture
+- $x_2$ = units of Product B to manufacture
+
+
+**Step 2: Organize the Data**
+
+| Resource    | Product A | Product B | Available |
+|-------------|:---------:|:---------:|:---------:|
+| Machine 1   | 2 hrs     | 1 hr      | 100 hrs   |
+| Machine 2   | 1 hr      | 2 hrs     | 80 hrs    |
+| **Profit**  | **\$30**  | **\$40**  | Maximize  |
+
+---
+
+**Step 3: Objective Function**
+
+Maximize total profit:
+
+$\text{Maximize } Z = 30x_1 + 40x_2$
+
+**Step 4: Constraints**
+
+- **Machine 1:** $2x_1 + x_2 \leq 100$
+- **Machine 2:** $x_1 + 2x_2 \leq 80$
+- **Non-negativity:** $x_1, x_2 \geq 0$
+
+
+---
+
+## Standard Form of LP Models
+### Example 2
+
+#### Model 
+
+**Maximize:** $Z = 30x_1 + 40x_2$
+
+**Subject to:**
+$\begin{align}
+2x_1 + x_2 &\leq 100 \quad \text{(Machine 1)}\\
+x_1 + 2x_2 &\leq 80 \quad \text{(Machine 2)}\\
+x_1, x_2 &\geq 0 \quad \text{(Non-negativity)}
+\end{align}$
+
+---
+
+## Graphical Method
+
+Linear programming problems involving **two variables** can be easily represented and solved using the graphical method. Although such two-variable problems are rarely encountered in real-life applications, understanding this approach provides a useful foundation.
+
+
+
+```{python}
+#| echo: true
+#| code-fold: true
+#| code-summary: "Code for this Fig."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig, ax = plt.subplots(figsize=(15, 10))
+
+ax.set_xlim(-20, 55)
+ax.set_ylim(-20, 55)
+
+ax.arrow(-20, 0, 73, 0, head_width=2, head_length=2, 
+         fc='#1F5BFF', ec='#1F5BFF', linewidth=2)
+
+ax.arrow(0, -20, 0, 73, head_width=2, head_length=2, 
+         fc='#1F5BFF', ec='#1F5BFF', linewidth=2)
+
+ax.set_xticks(np.arange(-10, 51, 10))
+ax.set_yticks(np.arange(-10, 51, 10))
+ax.tick_params(axis='both', which='major', labelsize=35)
+
+ax.grid(True, alpha=0.4, linestyle='--', linewidth=1)
+
+ax.text(53, -4, 'x', fontsize=40, fontweight='bold')
+ax.text(-4, 53, 'y', fontsize=40, fontweight='bold')
+
+for spine in ax.spines.values():
+    spine.set_visible(False)
+
+plt.tight_layout()
+plt.show()
+```
+
+
+
+## Graphical Method
+
+### Steps
+
+::: {.fragment}
+1. Convert each inequality constraint into an equation.
+:::
+
+::: {.fragment}
+2. Plot all the equations on a graph.
+:::
+
+::: {.fragment}
+3. Identify the feasible region — every point on each line satisfies its corresponding equation.
+:::
+
+::: {.fragment}
+4. For "≤" constraints, shade below the line; for "≥", shade above.  
+The overlapping area that satisfies all constraints is the **feasible region**.
+:::
+
+::: {.fragment}
+5. Determine the coordinates of all corner (vertex) points of the feasible region.
+:::
+
+::: {.fragment}
+6. Substitute these coordinates into the objective function to calculate the value of \( Z \) for each point.
+:::
+
+
+## Graphical Method
+
+### Example 
+
+Taking problem from **Example 1**: 
+
+**Maximize:** $Z = 5x_1 + 4x_2$
+
+**Subject to:**
+$$\begin{align}
+4x_1 + 3x_2 &\leq 24 \quad \text{(Material A)}\\
+3x_1 + 6x_2 &\leq 30 \quad \text{(Material B)}\\
+x_1, x_2 &\geq 0 \quad \text{(Non-negativity)}
+\end{align}$$
+
+---
+
+#### Step 1: Convert to Equations
+
+Convert inequalities to equations:
+
+- Material A: $4x_1 + 3x_2 = 24$
+- Material B: $3x_1 + 6x_2 = 30$
+
+---
+
+## Graphical Method
+
+### Step 2: Find Intercepts
+
+For **Material A:** $4x_1 + 3x_2 = 24$
+
+- When $x_1 = 0$: $3x_2 = 24$ → $x_2 = 8$
+- When $x_2 = 0$: $4x_1 = 24$ → $x_1 = 6$
+
+For **Material B:** $3x_1 + 6x_2 = 30$
+
+- When $x_1 = 0$: $6x_2 = 30$ → $x_2 = 5$
+- When $x_2 = 0$: $3x_1 = 30$ → $x_1 = 10$
+
+---
+
+## Graphical Method
+#### Step 3: Plot the Constraints
+
+```{python}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+#| code-fold: True
+#| code-summary: "Code for this Fig."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x1 = np.linspace(0, 12, 400)
+x2_A = (24 - 4*x1) / 3
+x2_B = (30 - 3*x1) / 6
+
+plt.figure(figsize=(10, 8))
+plt.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A: $4x_1 + 3x_2 = 24$')
+plt.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B: $3x_1 + 6x_2 = 30$')
+
+plt.scatter([6, 0, 10, 0], [0, 8, 0, 5], color='black', s=80, zorder=5)
+plt.text(6, -0.5, '(6, 0)', ha='center', fontsize=14)
+plt.text(-0.6, 8, '(0, 8)', fontsize=14)
+plt.text(10, -0.5, '(10, 0)', ha='center', fontsize=14)
+plt.text(-0.6, 5, '(0, 5)', fontsize=14)
+
+plt.xlabel('$x_1$', fontsize=18, weight='bold')
+plt.ylabel('$x_2$', fontsize=18, weight='bold')
+plt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')
+plt.grid(alpha=0.25)
+plt.legend(fontsize=14, frameon=False)
+plt.axhline(0, color='black', linewidth=1.2)
+plt.axvline(0, color='black', linewidth=1.2)
+plt.xlim(-1, 12)
+plt.ylim(-1, 10)
+plt.tight_layout()
+plt.show()
+
+```
+
+---
+
+```{python}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+#| code-fold: True
+#| code-summary: "Code for this Fig."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x1 = np.linspace(0, 12, 400)
+x2_A = (24 - 4*x1) / 3
+x2_B = (30 - 3*x1) / 6
+
+plt.figure(figsize=(10, 8))
+plt.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A: $4x_1 + 3x_2 = 24$')
+plt.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B: $3x_1 + 6x_2 = 30$')
+
+# Add arrows perpendicular to constraint lines
+# For Material A: 4x1 + 3x2 = 24, the gradient (normal vector) is (4, 3)
+arrow_length = 1
+x1_point_A = 3
+x2_point_A = (24 - 4*x1_point_A) / 3
+normal_A = np.array([-4, -3])
+normal_A = normal_A / np.linalg.norm(normal_A) * arrow_length
+plt.arrow(x1_point_A, x2_point_A, normal_A[0], normal_A[1], 
+          head_width=0.3, head_length=0.25, fc='#2563eb', ec='#2563eb', linewidth=2.5)
+
+# For Material B: 3x1 + 6x2 = 30, the gradient (normal vector) is (3, 6)
+x1_point_B = 6
+x2_point_B = (30 - 3*x1_point_B) / 6
+normal_B = np.array([-3, -6])
+normal_B = normal_B / np.linalg.norm(normal_B) * arrow_length
+plt.arrow(x1_point_B, x2_point_B, normal_B[0], normal_B[1],
+          head_width=0.3, head_length=0.25, fc='#dc2626', ec='#dc2626', linewidth=2.5)
+
+# Add arrows for x1 >= 0 constraint (vertical line at x1=0)
+# Normal vector points to the right (positive x1 direction)
+plt.arrow(0, 2, arrow_length, 0,
+          head_width=0.3, head_length=0.25, fc='#16a34a', ec='#16a34a', linewidth=2.5)
+
+# Add arrows for x2 >= 0 constraint (horizontal line at x2=0)
+# Normal vector points upward (positive x2 direction)
+plt.arrow(4, 0, 0, arrow_length,
+          head_width=0.3, head_length=0.25, fc='#9333ea', ec='#9333ea', linewidth=2.5)
+
+plt.scatter([6, 0, 10, 0], [0, 8, 0, 5], color='black', s=80, zorder=5)
+plt.text(6, -0.5, '(6, 0)', ha='center', fontsize=14)
+plt.text(-0.6, 8, '(0, 8)', fontsize=14)
+plt.text(10, -0.5, '(10, 0)', ha='center', fontsize=14)
+plt.text(-0.6, 5, '(0, 5)', fontsize=14)
+
+plt.xlabel('$x_1$', fontsize=18, weight='bold')
+plt.ylabel('$x_2$', fontsize=18, weight='bold')
+plt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')
+plt.grid(alpha=0.25)
+plt.legend(fontsize=14, frameon=False)
+plt.axhline(0, color='black', linewidth=1.2)
+plt.axvline(0, color='black', linewidth=1.2)
+plt.xlim(-1, 12)
+plt.ylim(-1, 10)
+plt.tight_layout()
+plt.show()
+
+```
+
+---
+
+
+## Graphical Method
+#### Step 4: Identify Feasible Region
+
+Shade the region that satisfies **all constraints**:
+
+- Below Material A line (4x₁ + 3x₂ ≤ 24)
+- Below Material B line (3x₁ + 6x₂ ≤ 30)
+- First quadrant (x₁, x₂ ≥ 0)
+ 
+---
+
+```{python}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+#| code-fold: True
+#| code-summary: "Code for this Fig."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x1 = np.linspace(0, 12, 400)
+x2_A = (24 - 4*x1) / 3
+x2_B = (30 - 3*x1) / 6
+
+plt.figure(figsize=(10, 8))
+plt.plot(x1, x2_A, color='#2563eb', linewidth=2.5, label='$4x_1 + 3x_2 \\leq 24$')
+plt.plot(x1, x2_B, color='#dc2626', linewidth=2.5, label='$3x_1 + 6x_2 \\leq 30$')
+
+x1_fill = np.linspace(0, 6, 400)
+x2_fill = np.minimum((24 - 4*x1_fill) / 3, (30 - 3*x1_fill) / 6)
+plt.fill_between(x1_fill, 0, x2_fill, alpha=0.35, color='#10b981', label='Feasible Region')
+
+plt.xlabel('$x_1$', fontsize=18, weight='bold')
+plt.ylabel('$x_2$', fontsize=18, weight='bold')
+plt.title('Feasible Region Visualization', fontsize=22, weight='bold', color='#1e293b')
+plt.legend(fontsize=14, frameon=False)
+plt.grid(alpha=0.25, linestyle='--')
+plt.axhline(0, color='black', linewidth=1.2)
+plt.axvline(0, color='black', linewidth=1.2)
+plt.xlim(-1, 12)
+plt.ylim(-1, 10)
+plt.tight_layout()
+plt.show()
+
+```
+
+---
+
+## Graphical Method
+#### Step 5: Find Corner Points
+
+The corner points of the feasible region are:
+
+- **Point A:** (0, 0) — Origin
+- **Point B:** (0, 5) — Intersection with y-axis
+- **Point C:** (?, ?) — Intersection of two constraints
+- **Point D:** (6, 0) — Intersection with x-axis
+
+**Find Point C:** Solve the system:
+$$\begin{align}
+4x_1 + 3x_2 &= 24 \\
+3x_1 + 6x_2 &= 30
+\end{align}$$
+
+---
+
+## Graphical Method
+#### Finding Point C
+
+**Method: Elimination**
+
+Multiply first equation by 2:
+$$8x_1 + 6x_2 = 48 \quad \text{...(1)}$$
+
+Keep second equation:
+$$3x_1 + 6x_2 = 30 \quad \text{...(2)}$$
+
+Subtract (2) from (1):
+$$5x_1 = 18 \implies x_1 = 3.6$$
+
+Substitute back: $x_2 = 3.2$
+
+**Point C = (3.6, 3.2)**
+
+---
+
+## Graphical Method
+
+#### Corner Points Visualization
+
+```{python}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+#| code-fold: True
+#| code-summary: "Code for this Fig."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig, ax = plt.subplots(figsize=(10, 8))
+
+x1 = np.linspace(0, 12, 400)
+x2_A = (24 - 4*x1) / 3
+x2_B = (30 - 3*x1) / 6
+
+ax.plot(x1, x2_A, color='#2563eb', linewidth=3, label='Material A')
+ax.plot(x1, x2_B, color='#dc2626', linewidth=3, label='Material B')
+
+x1_fill = np.linspace(0, 6, 400)
+x2_fill = np.minimum((24 - 4*x1_fill) / 3, (30 - 3*x1_fill) / 6)
+ax.fill_between(x1_fill, 0, x2_fill, color='#10b981', alpha=0.4, label='Feasible Region')
+
+corners = [(0, 0), (0, 5), (3.6, 3.2), (6, 0)]
+labels = ['A (0, 0)', 'B (0, 5)', 'C (3.6, 3.2)', 'D (6, 0)']
+colors = ['#0ea5e9', '#f59e0b', '#22c55e', '#6366f1']
+
+for (x, y), label, c in zip(corners, labels, colors):
+    ax.scatter(x, y, s=150, color=c, edgecolor='black', linewidth=1.2, zorder=5)
+    ax.text(x + 0.25, y + 0.25, label, fontsize=14, weight='bold', color='#1e293b')
+
+ax.set_xlabel('$x_1$', fontsize=18, weight='bold')
+ax.set_ylabel('$x_2$', fontsize=18, weight='bold')
+ax.set_xlim(-1, 12)
+ax.set_ylim(-1, 10)
+ax.set_title('Corner Points of Feasible Region', fontsize=22, weight='bold', color='#1e293b')
+ax.legend(fontsize=14, loc='upper right', frameon=False)
+ax.grid(alpha=0.25, linestyle='--')
+ax.axhline(0, color='black', linewidth=1.2)
+ax.axvline(0, color='black', linewidth=1.2)
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## Graphical Method
+
+#### Step 6: Evaluate Objective Function
+
+Substitute each corner point into $Z = 5x_1 + 4x_2$:
+
+| Point | $(x_1, x_2)$ | $Z = 5x_1 + 4x_2$ | Value |
+|:-----:|:------------:|:-----------------:|:-----:|
+| A     | (0, 0)       | $5(0) + 4(0)$     | **0** |
+| B     | (0, 5)       | $5(0) + 4(5)$     | **20** |
+| C     | (3.6, 3.2)   | $5(3.6) + 4(3.2)$ | **30.8** |
+| D     | (6, 0)       | $5(6) + 4(0)$     | **30** |
+
+**Maximum value:** $Z = 30.8$ at point **C (3.6, 3.2)**
+
+---
+
+## Graphical Method
+#### Optimal Solution
+
+:::{.callout-tip icon=true}
+## Final Answer
+
+**Optimal Production Plan:**
+- Produce $x_1^* = 3.6$ tons of Paint 1
+- Produce $x_2^* = 3.2$ tons of Paint 2
+
+**Maximum Profit:** $Z^* = \$30.80$
+
+**Resource Utilization:**
+- Material A: $4(3.6) + 3(3.2) = 24$ units ✓ (fully used)
+- Material B: $3(3.6) + 6(3.2) = 30$ units ✓ (fully used)
+
+Both resources are **binding constraints** (fully utilized).
+:::
+
+
+
+## Graphical Method
+
+### Example 2
+
+Taking problem from **Example 2**: 
+
+**Maximize:** $Z = 30x_1 + 40x_2$
+
+**Subject to:**
+$$\begin{align}
+2x_1 + x_2 &\leq 100 \quad \text{(Machine 1)}\\
+x_1 + 2x_2 &\leq 80 \quad \text{(Machine 2)}\\
+x_1, x_2 &\geq 0 \quad \text{(Non-negativity)}
+\end{align}$$
+
+---
+
+#### Step 1: Convert to Equations
+
+Convert inequalities to equations:
+
+- Machine 1: $2x_1 + x_2 = 100$
+- Machine 2: $x_1 + 2x_2 = 80$
+
+---
+
+## Graphical Method
+
+### Step 2: Find Intercepts
+
+For **Machine 1:** $2x_1 + x_2 = 100$
+
+- When $x_1 = 0$: $x_2 = 100$
+- When $x_2 = 0$: $2x_1 = 100$ → $x_1 = 50$
+
+For **Machine 2:** $x_1 + 2x_2 = 80$
+
+- When $x_1 = 0$: $2x_2 = 80$ → $x_2 = 40$
+- When $x_2 = 0$: $x_1 = 80$
+
+---
+
+## Graphical Method
+#### Step 3: Plot the Constraints
+
+```{python}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+#| code-fold: True
+#| code-summary: "Code for this Fig."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x1 = np.linspace(0, 90, 400)
+x2_M1 = 100 - 2*x1
+x2_M2 = (80 - x1) / 2
+
+plt.figure(figsize=(10, 8))
+plt.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1: $2x_1 + x_2 = 100$')
+plt.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2: $x_1 + 2x_2 = 80$')
+
+plt.scatter([50, 0, 80, 0], [0, 100, 0, 40], color='black', s=80, zorder=5)
+plt.text(50, -4, '(50, 0)', ha='center', fontsize=14)
+plt.text(-4, 100, '(0, 100)', fontsize=14)
+plt.text(80, -4, '(80, 0)', ha='center', fontsize=14)
+plt.text(-4, 40, '(0, 40)', fontsize=14)
+
+plt.xlabel('$x_1$', fontsize=18, weight='bold')
+plt.ylabel('$x_2$', fontsize=18, weight='bold')
+plt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')
+plt.grid(alpha=0.25)
+plt.legend(fontsize=14, frameon=False)
+plt.axhline(0, color='black', linewidth=1.2)
+plt.axvline(0, color='black', linewidth=1.2)
+plt.xlim(-5, 90)
+plt.ylim(-5, 110)
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+```{python}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+#| code-fold: True
+#| code-summary: "Code for this Fig."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x1 = np.linspace(0, 90, 400)
+x2_M1 = 100 - 2*x1
+x2_M2 = (80 - x1) / 2
+
+plt.figure(figsize=(10, 8))
+plt.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1: $2x_1 + x_2 = 100$')
+plt.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2: $x_1 + 2x_2 = 80$')
+
+# Add arrows perpendicular to constraint lines
+# For Machine 1: 2x1 + x2 = 100, the gradient (normal vector) is (2, 1)
+arrow_length = 10
+x1_point_M1 = 25
+x2_point_M1 = 100 - 2*x1_point_M1
+normal_M1 = np.array([-2, -1])
+normal_M1 = normal_M1 / np.linalg.norm(normal_M1) * arrow_length
+plt.arrow(x1_point_M1, x2_point_M1, normal_M1[0], normal_M1[1], 
+          head_width=3, head_length=2.5, fc='#2563eb', ec='#2563eb', linewidth=2.5)
+
+# For Machine 2: x1 + 2x2 = 80, the gradient (normal vector) is (1, 2)
+x1_point_M2 = 40
+x2_point_M2 = (80 - x1_point_M2) / 2
+normal_M2 = np.array([-1, -2])
+normal_M2 = normal_M2 / np.linalg.norm(normal_M2) * arrow_length
+plt.arrow(x1_point_M2, x2_point_M2, normal_M2[0], normal_M2[1],
+          head_width=3, head_length=2.5, fc='#dc2626', ec='#dc2626', linewidth=2.5)
+
+# Add arrows for x1 >= 0 constraint (vertical line at x1=0)
+plt.arrow(0, 20, arrow_length, 0,
+          head_width=3, head_length=2.5, fc='#16a34a', ec='#16a34a', linewidth=2.5)
+
+# Add arrows for x2 >= 0 constraint (horizontal line at x2=0)
+plt.arrow(30, 0, 0, arrow_length,
+          head_width=3, head_length=2.5, fc='#9333ea', ec='#9333ea', linewidth=2.5)
+
+plt.scatter([50, 0, 80, 0], [0, 100, 0, 40], color='black', s=80, zorder=5)
+plt.text(50, -4, '(50, 0)', ha='center', fontsize=14)
+plt.text(-4, 100, '(0, 100)', fontsize=14)
+plt.text(80, -4, '(80, 0)', ha='center', fontsize=14)
+plt.text(-4, 40, '(0, 40)', fontsize=14)
+
+plt.xlabel('$x_1$', fontsize=18, weight='bold')
+plt.ylabel('$x_2$', fontsize=18, weight='bold')
+plt.title('Constraint Lines', fontsize=22, weight='bold', color='#1e293b')
+plt.grid(alpha=0.25)
+plt.legend(fontsize=14, frameon=False)
+plt.axhline(0, color='black', linewidth=1.2)
+plt.axvline(0, color='black', linewidth=1.2)
+plt.xlim(-5, 90)
+plt.ylim(-5, 110)
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## Graphical Method
+#### Step 4: Identify Feasible Region
+
+Shade the region that satisfies **all constraints**:
+
+- Below Machine 1 line (2x₁ + x₂ ≤ 100)
+- Below Machine 2 line (x₁ + 2x₂ ≤ 80)
+- First quadrant (x₁, x₂ ≥ 0)
+ 
+---
+
+```{python}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+#| code-fold: True
+#| code-summary: "Code for this Fig."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+x1 = np.linspace(0, 90, 400)
+x2_M1 = 100 - 2*x1
+x2_M2 = (80 - x1) / 2
+
+plt.figure(figsize=(10, 8))
+plt.plot(x1, x2_M1, color='#2563eb', linewidth=2.5, label='$2x_1 + x_2 \\leq 100$')
+plt.plot(x1, x2_M2, color='#dc2626', linewidth=2.5, label='$x_1 + 2x_2 \\leq 80$')
+
+x1_fill = np.linspace(0, 50, 400)
+x2_fill = np.minimum(100 - 2*x1_fill, (80 - x1_fill) / 2)
+plt.fill_between(x1_fill, 0, x2_fill, alpha=0.35, color='#10b981', label='Feasible Region')
+
+plt.xlabel('$x_1$', fontsize=18, weight='bold')
+plt.ylabel('$x_2$', fontsize=18, weight='bold')
+plt.title('Feasible Region Visualization', fontsize=22, weight='bold', color='#1e293b')
+plt.legend(fontsize=14, frameon=False)
+plt.grid(alpha=0.25, linestyle='--')
+plt.axhline(0, color='black', linewidth=1.2)
+plt.axvline(0, color='black', linewidth=1.2)
+plt.xlim(-5, 90)
+plt.ylim(-5, 110)
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## Graphical Method
+#### Step 5: Find Corner Points
+
+The corner points of the feasible region are:
+
+- **Point A:** (0, 0) — Origin
+- **Point B:** (0, 40) — Intersection with y-axis
+- **Point C:** (?, ?) — Intersection of two constraints
+- **Point D:** (50, 0) — Intersection with x-axis
+
+**Find Point C:** Solve the system:
+$$\begin{align}
+2x_1 + x_2 &= 100 \\
+x_1 + 2x_2 &= 80
+\end{align}$$
+
+---
+
+## Graphical Method
+#### Finding Point C
+
+**Method: Elimination**
+
+Multiply second equation by 2:
+$$2x_1 + 4x_2 = 160 \quad \text{...(1)}$$
+
+Keep first equation:
+$$2x_1 + x_2 = 100 \quad \text{...(2)}$$
+
+Subtract (2) from (1):
+$$3x_2 = 60 \implies x_2 = 20$$
+
+Substitute back: $2x_1 + 20 = 100 \implies x_1 = 40$
+
+**Point C = (40, 20)**
+
+---
+
+## Graphical Method
+
+#### Corner Points Visualization
+
+```{python}
+#| echo: true
+#| fig-width: 10
+#| fig-height: 8
+#| code-fold: True
+#| code-summary: "Code for this Fig."
+
+import matplotlib.pyplot as plt
+import numpy as np
+
+fig, ax = plt.subplots(figsize=(10, 8))
+
+x1 = np.linspace(0, 90, 400)
+x2_M1 = 100 - 2*x1
+x2_M2 = (80 - x1) / 2
+
+ax.plot(x1, x2_M1, color='#2563eb', linewidth=3, label='Machine 1')
+ax.plot(x1, x2_M2, color='#dc2626', linewidth=3, label='Machine 2')
+
+x1_fill = np.linspace(0, 50, 400)
+x2_fill = np.minimum(100 - 2*x1_fill, (80 - x1_fill) / 2)
+ax.fill_between(x1_fill, 0, x2_fill, color='#10b981', alpha=0.4, label='Feasible Region')
+
+corners = [(0, 0), (0, 40), (40, 20), (50, 0)]
+labels = ['A (0, 0)', 'B (0, 40)', 'C (40, 20)', 'D (50, 0)']
+colors = ['#0ea5e9', '#f59e0b', '#22c55e', '#6366f1']
+
+for (x, y), label, c in zip(corners, labels, colors):
+    ax.scatter(x, y, s=150, color=c, edgecolor='black', linewidth=1.2, zorder=5)
+    ax.text(x + 2, y + 2.5, label, fontsize=14, weight='bold', color='#1e293b')
+
+ax.set_xlabel('$x_1$', fontsize=18, weight='bold')
+ax.set_ylabel('$x_2$', fontsize=18, weight='bold')
+ax.set_xlim(-5, 90)
+ax.set_ylim(-5, 110)
+ax.set_title('Corner Points of Feasible Region', fontsize=22, weight='bold', color='#1e293b')
+ax.legend(fontsize=14, loc='upper right', frameon=False)
+ax.grid(alpha=0.25, linestyle='--')
+ax.axhline(0, color='black', linewidth=1.2)
+ax.axvline(0, color='black', linewidth=1.2)
+plt.tight_layout()
+plt.show()
+```
+
+---
+
+## Graphical Method
+
+#### Step 6: Evaluate Objective Function
+
+Substitute each corner point into $Z = 30x_1 + 40x_2$:
+
+| Point | $(x_1, x_2)$ | $Z = 30x_1 + 40x_2$ | Value |
+|:-----:|:------------:|:-------------------:|:-----:|
+| A     | (0, 0)       | $30(0) + 40(0)$     | **0** |
+| B     | (0, 40)      | $30(0) + 40(40)$    | **1600** |
+| C     | (40, 20)     | $30(40) + 40(20)$   | **2000** |
+| D     | (50, 0)      | $30(50) + 40(0)$    | **1500** |
+
+**Maximum value:** $Z = 2000$ at point **C (40, 20)**
+
+---
+
+## Graphical Method
+#### Optimal Solution
+
+:::{.callout-tip icon=true}
+## Final Answer
+
+**Optimal Production Plan:**
+- Produce $x_1^* = 40$ units of Product A
+- Produce $x_2^* = 20$ units of Product B
+
+**Maximum Profit:** $Z^* = \$2000$
+
+**Resource Utilization:**
+- Machine 1: $2(40) + 20 = 100$ hours ✓ (fully used)
+- Machine 2: $40 + 2(20) = 80$ hours ✓ (fully used)
+
+Both machines are **binding constraints** (fully utilized).
+:::
+
+# 🎉 That’s a Wrap! 🎉
+
+*Hope you had fun and learned something new* 😄  
+
+**See you next time!** 👋
+

@@ -1,0 +1,8 @@
+---
+title: "Teaching"
+---
+
+| University | Academic Year | Course | Highlights | Webpage |
+|------------|---------------|--------|------------|---------|
+| **ITC** <br>Institute of Technology of Cambodia | 2025 - 2026 | Operations Research (Year 4 - Financial Engineering) | 💡 Dive into optimization, decision-making, and real-world problem solving! <br> |🖥 [Course Webpage](Course_Web\index.html) |
+

@@ -11,6 +11,8 @@ website:
         href: publications.qmd
       - text: Certificates
         href: certificates.qmd
+      - text: Teaching
+        href: teaching.qmd
       - text: Gallery
         href: gallery.qmd
       - text: Contact/Resume

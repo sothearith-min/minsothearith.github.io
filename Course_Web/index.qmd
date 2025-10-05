@@ -1,0 +1,109 @@
+---
+title: "Operations Research"
+title-block-banner: true
+title-block-banner-color: "#e5ffe5ff"
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    smooth-scroll: true
+    page-layout: full
+---
+
+::: {.lecturer-info}
+**Lecturer:** Sothearith Min | **Contact:** [*https://sothearith-min.github.io/minsothearith.github.io/*](https://sothearith-min.github.io/minsothearith.github.io/) 
+:::
+
+::: {.welcome-box}
+# 👋 Welcome to Operations Research!
+
+*Get ready to dive into the exciting world of decision-making, optimization, and problem-solving!* 🚀  
+
+*Let's get started!* 🎯
+:::
+
+::: {.intro-box}
+## 📘 Introduction
+
+In this course, we will learn how to solve complex decision-making problems using mathematical optimization techniques. We will explore linear programming, transportation and assignment models, queuing systems, scheduling algorithms, and game theory to make better decisions in real-world scenarios.
+:::
+------------------------------------------------------------------------
+
+## ⏰ Learning Hours
+
+**Credits:** 3 (Course = 2, TD = 1, TP = 0)  
+**Course Hours:** 32 hours per semester  
+**Tutorial (TD):** 32 hours per semester
+
+📄 **[Download Course Syllabus](Course_Syllabus_Operation_Research.pdf)**
+
+------------------------------------------------------------------------
+
+## 📊 Grading Criteria
+
+| Component | Weight |
+|-----------|--------|
+| Attendance | 10% |
+| Assignment | 10% |
+| Class Activities | 10% |
+| Mid-term Exam | 30% |
+| Final Exam | 40% |
+
+------------------------------------------------------------------------
+
+## 📖 References
+
+1. Taha, H. A. (2017). *Operations Research: An Introduction* (10th ed.). Pearson.
+2. Hillier, F. S., Lieberman, G. J. (2021). *Introduction to Operations Research* (11th ed.). McGraw-Hill Education.
+3. Baker, K. R., Trietsch, D. (2009). *Principles of Sequencing and Scheduling*. John Wiley & Sons.
+
+------------------------------------------------------------------------
+
+## 📚 Course Resources
+
+| Week | Slides | TD | Solution |
+|------|--------|-----|----------|
+| Week 1 | [*Slides*](Slides\Week_1\index.html) | [*TD*](Slides\TD\TD___Week_1) | *To be released* |
+| Week 2 | Loading... | Loading... | Loading... |
+| Week 3 | Loading... | Loading... | Loading... |
+| Week 4 | Loading... | Loading... | Loading... |
+| Week 5 | Loading... | Loading... | Loading... |
+| Week 6 | Loading... | Loading... | Loading... |
+| Week 7 | Loading... | Loading... | Loading... |
+| Week 8 | Loading... | Loading... | Loading... |
+| Week 9 | Loading... | Loading... | Loading... |
+| Week 10 | Loading... | Loading... | Loading... |
+| Week 11 | Loading... | Loading... | Loading... |
+| Week 12 | Loading... | Loading... | Loading... |
+| Week 13 | Loading... | Loading... | Loading... |
+| Week 14 | Loading... | Loading... | Loading... |
+| Week 15 | Loading... | Loading... | Loading... |
+| Week 16 | Loading... | Loading... | Loading... |
+
+
+
+------------------------------------------------------------------------
+
+
+## 💻 Computer Tools
+
+We will use **Python** with libraries such as **PuLP**, **SciPy**, and **NumPy** for solving optimization problems throughout this course.
+
+
+**Getting Started:**
+
+- [Install Jupyter Notebook](https://jupyter.org/install)
+- [Access Google Colab](https://colab.research.google.com/) (No installation needed!)
+
+------------------------------------------------------------------------
+
+
+## 📬 Questions or Concerns?
+
+Feel free to reach out anytime! 
+
+------------------------------------------------------------------------
+
+
